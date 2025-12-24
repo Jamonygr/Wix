@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Book - BeyondCloudWithChriz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0d0d1a 0%, #1a0a30 50%, #0d0d1a 100%);
+            overflow: hidden;
+        }
+
+        .scene {
+            perspective: 1200px;
+            width: 280px;
+            height: 400px;
+        }
+
+        .book {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: spin 10s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        .cover {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 8px 4px 4px 8px;
+            overflow: hidden;
+        }
+
+        .cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .front {
+            transform: translateZ(15px);
+            box-shadow: 
+                -5px 5px 30px rgba(0, 0, 0, 0.4),
+                0 0 15px rgba(255, 0, 255, 0.3),
+                0 0 30px rgba(0, 255, 255, 0.2);
+        }
+
+        .back {
+            transform: rotateY(180deg) translateZ(15px);
+            box-shadow: 
+                5px 5px 30px rgba(0, 0, 0, 0.4),
+                0 0 15px rgba(255, 0, 255, 0.3),
+                0 0 30px rgba(0, 255, 255, 0.2);
+        }
+
+        /* Book spine with 80s gradient */
+        .spine-left {
+            position: absolute;
+            width: 30px;
+            height: 100%;
+            left: 0;
+            transform: rotateY(-90deg) translateZ(0px) translateX(-15px);
+            background: linear-gradient(to bottom, 
+                #2d1b4e 0%, 
+                #1a0a30 20%,
+                #0d0620 50%,
+                #1a0a30 80%,
+                #2d1b4e 100%);
+            border-top: 2px solid rgba(255, 0, 255, 0.3);
+            border-bottom: 2px solid rgba(0, 255, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .spine-text {
+            color: #00ffff;
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            transform: rotate(180deg);
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+            letter-spacing: 2px;
+        }
+
+        /* Top and bottom edges */
+        .edge-top {
+            position: absolute;
+            width: 100%;
+            height: 30px;
+            top: 0;
+            transform: rotateX(90deg) translateZ(0px) translateY(-15px);
+            background: linear-gradient(to right, #f5f5dc, #e8e8d0);
+        }
+
+        .edge-bottom {
+            position: absolute;
+            width: 100%;
+            height: 30px;
+            bottom: 0;
+            transform: rotateX(-90deg) translateZ(0px) translateY(15px);
+            background: linear-gradient(to right, #f5f5dc, #e8e8d0);
+        }
+
+        /* Right edge (pages) */
+        .pages {
+            position: absolute;
+            width: 30px;
+            height: 100%;
+            right: 0;
+            transform: rotateY(90deg) translateZ(calc(100% - 15px)) translateX(15px);
+            background: repeating-linear-gradient(
+                to bottom,
+                #fafaf5 0px,
+                #fafaf5 2px,
+                #e8e8e0 2px,
+                #e8e8e0 3px
+            );
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotateY(-20deg) rotateX(5deg);
+            }
+            25% {
+                transform: rotateY(70deg) rotateX(3deg);
+            }
+            50% {
+                transform: rotateY(160deg) rotateX(5deg);
+            }
+            75% {
+                transform: rotateY(250deg) rotateX(3deg);
+            }
+            100% {
+                transform: rotateY(340deg) rotateX(5deg);
+            }
+        }
+
+        /* Hover pause */
+        .book:hover {
+            animation-play-state: paused;
+        }
+
+        /* Neon glow underneath */
+        .glow {
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 60px;
+            background: radial-gradient(ellipse, 
+                rgba(255, 0, 255, 0.4) 0%, 
+                rgba(0, 255, 255, 0.2) 40%, 
+                transparent 70%);
+            filter: blur(10px);
+            animation: glowPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes glowPulse {
+            0%, 100% { opacity: 0.6; transform: translateX(-50%) scale(1); }
+            50% { opacity: 1; transform: translateX(-50%) scale(1.1); }
+        }
+
+        a {
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Fallback cover designs if no images */
+        .cover-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .front .cover-placeholder {
+            background: linear-gradient(135deg, #1a0a30 0%, #2d1b4e 50%, #0d0620 100%);
+            border: 3px solid #ff00ff;
+        }
+
+        .back .cover-placeholder {
+            background: linear-gradient(135deg, #0d0620 0%, #1a0a30 50%, #2d1b4e 100%);
+            border: 3px solid #00ffff;
+        }
+
+        .cover-placeholder h1 {
+            color: #00ffff;
+            font-family: 'Arial Black', sans-serif;
+            font-size: 24px;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+            margin-bottom: 15px;
+        }
+
+        .cover-placeholder h2 {
+            color: #ff00ff;
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            text-shadow: 0 0 15px rgba(255, 0, 255, 0.8);
+        }
+
+        .cover-placeholder .author {
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+            margin-top: 20px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .back-content {
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            font-size: 11px;
+            line-height: 1.6;
+        }
+
+        .back-content h3 {
+            color: #00ffff;
+            font-size: 16px;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.amazon.com/dp/B0FNWHP15X" target="_blank" id="bookLink">
+        <div class="scene">
+            <div class="book">
+                <!-- Front Cover -->
+                <div class="cover front" id="frontCover">
+                    <!-- Placeholder will be replaced if image URL provided -->
+                    <div class="cover-placeholder">
+                        <h1>BEYOND CLOUD</h1>
+                        <h2>with Chriz</h2>
+                        <p class="author">Christos Panagiotidis</p>
+                    </div>
+                </div>
+                
+                <!-- Back Cover -->
+                <div class="cover back" id="backCover">
+                    <div class="cover-placeholder">
+                        <div class="back-content">
+                            <h3>About This Book</h3>
+                            <p>Born from the cloud war rooms. Your guide to mastering Microsoft Azure with 80s synthwave energy.</p>
+                            <p style="margin-top: 15px; color: #ff00ff;">★★★★★</p>
+                            <p style="margin-top: 10px; font-size: 10px;">Available on Amazon</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Spine -->
+                <div class="spine-left">
+                    <span class="spine-text">BEYOND CLOUD</span>
+                </div>
+                
+                <!-- Pages edge -->
+                <div class="pages"></div>
+                
+                <!-- Top/Bottom edges -->
+                <div class="edge-top"></div>
+                <div class="edge-bottom"></div>
+            </div>
+            <div class="glow"></div>
+        </div>
+    </a>
+
+    <script>
+        /*******************************************************
+         * CONFIGURATION - UPDATE THESE VALUES
+         *******************************************************/
+        
+        // Your front cover image URL (upload to Wix Media Manager)
+        // Example: 'https://static.wixstatic.com/media/your-image.jpg'
+        const FRONT_COVER = '';  // Leave empty to use placeholder design
+        
+        // Your back cover image URL
+        const BACK_COVER = '';   // Leave empty to use placeholder design
+        
+        // Amazon book link
+        const AMAZON_LINK = 'https://www.amazon.com/dp/B0FNWHP15X';
+        
+        /*******************************************************
+         * Apply Configuration
+         *******************************************************/
+        if (FRONT_COVER) {
+            document.getElementById('frontCover').innerHTML = 
+                `<img src="${FRONT_COVER}" alt="Front Cover">`;
+        }
+        
+        if (BACK_COVER) {
+            document.getElementById('backCover').innerHTML = 
+                `<img src="${BACK_COVER}" alt="Back Cover">`;
+        }
+        
+        document.getElementById('bookLink').href = AMAZON_LINK;
+    </script>
+</body>
+</html>

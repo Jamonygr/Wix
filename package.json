@@ -1,0 +1,19 @@
+{
+  "name": "wix-blog-automation",
+  "version": "1.0.0",
+  "description": "Automated blog posting for beyondcloudwithchriz.com",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "post": "node postBlog.js",
+    "list": "node listPosts.js",
+    "test": "node testConnection.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.57.0"
+  },
+  "author": "Jamon",
+  "license": "MIT"
+}
