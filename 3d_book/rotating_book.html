@@ -16,7 +16,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background: transparent;
+            background: #0d0d1a;
             font-family: 'Arial', sans-serif;
         }
 
@@ -152,12 +152,12 @@
             <div class="book">
                 <!-- FRONT COVER -->
                 <div class="book-face front">
-                    <img src="front-cover.png" alt="Book Front Cover" id="frontCover">
+                    <img src="https://static.wixstatic.com/media/32fce1_8f4e478e91c34cd187178fafedd126b4~mv2.jpg" alt="Book Front Cover">
                 </div>
                 
                 <!-- BACK COVER -->
                 <div class="book-face back">
-                    <img src="back-cover.png" alt="Book Back Cover" id="backCover">
+                    <img src="https://static.wixstatic.com/media/32fce1_6bc54a93da2c4d568bda260d8de6ee08~mv2.png" alt="Book Back Cover">
                 </div>
                 
                 <!-- SPINE -->
@@ -166,23 +166,5 @@
         </a>
     </div>
 
-    <script>
-        // Configuration - Replace these with your actual image URLs
-        const CONFIG = {
-            // Front cover image URL (your current book cover)
-            frontCover: 'https://static.wixstatic.com/media/32fce1_YOUR_FRONT_COVER_ID~mv2.png',
-            
-            // Back cover image URL (upload to Wix Media and get the URL)
-            backCover: 'https://static.wixstatic.com/media/32fce1_YOUR_BACK_COVER_ID~mv2.png',
-            
-            // Amazon link
-            amazonLink: 'https://www.amazon.com/dp/B0FNWHP15X'
-        };
-
-        // Apply configuration
-        document.getElementById('frontCover').src = CONFIG.frontCover;
-        document.getElementById('backCover').src = CONFIG.backCover;
-        document.querySelector('.book-link').href = CONFIG.amazonLink;
-    </script>
 </body>
 </html>

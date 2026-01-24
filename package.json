@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "connect": "node connectSite.js",
     "post": "node postBlog.js",
     "list": "node listPosts.js",
     "test": "node testConnection.js"
