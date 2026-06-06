@@ -1,0 +1,99 @@
+<!--
+  Beyond Cloud homepage polish.
+
+  Add through Wix Dashboard > Settings > Custom Code > Head.
+  This needs to run as site custom code, not inside an HTML iframe embed.
+-->
+<style>
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    background-color: #03040a;
+  }
+
+  img,
+  video,
+  canvas,
+  iframe {
+    max-width: 100%;
+  }
+
+  a[href*="/post/"] {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+
+  a[href*="/post/"]:hover,
+  a[href*="/post/"]:focus {
+    color: #22f7ff !important;
+    text-shadow: 0 0 12px rgba(34, 247, 255, 0.7);
+  }
+
+  [data-hook="post-list-item"],
+  article,
+  [class*="blog"] [role="listitem"] {
+    transition: transform 180ms ease, filter 180ms ease;
+  }
+
+  [data-hook="post-list-item"]:hover,
+  article:hover,
+  [class*="blog"] [role="listitem"]:hover {
+    filter: drop-shadow(0 0 18px rgba(34, 247, 255, 0.22));
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 768px) {
+    body {
+      min-width: 0 !important;
+    }
+
+    nav,
+    header,
+    main,
+    section,
+    footer,
+    div {
+      max-width: 100%;
+    }
+
+    [data-hook="post-list-item"],
+    article,
+    [class*="blog"] [role="listitem"] {
+      display: block !important;
+      width: calc(100vw - 28px) !important;
+      max-width: calc(100vw - 28px) !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    [data-hook="post-list-item"] img,
+    article img,
+    [class*="blog"] [role="listitem"] img {
+      width: 100% !important;
+      height: auto !important;
+      object-fit: cover;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    a,
+    span {
+      overflow-wrap: anywhere;
+    }
+
+    input,
+    button,
+    textarea,
+    select {
+      max-width: 100%;
+      min-height: 44px;
+      font-size: 16px !important;
+    }
+  }
+</style>
