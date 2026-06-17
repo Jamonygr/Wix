@@ -4,9 +4,9 @@ Blog Post 5: Azure Copilot Agents - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
-    
-    "coverImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Remember those 80s movies where the hero had a team of specialists, each one an expert in their particular domain, ready to tackle whatever challenge the plot threw their way? That's exactly what Microsoft has built with Azure Copilot Agents—a crew of AI-powered specialists designed to transform how you operate, optimize, and troubleshoot your cloud infrastructure.
 
 The concept sounds simple enough: take the Copilot AI experience that's been revolutionizing developer productivity and apply it to cloud operations. But the execution goes so much deeper than that description suggests. These aren't chatbots that occasionally surface relevant documentation. These are genuine operational agents capable of understanding your specific environment, analyzing complex situations, and taking action on your behalf.
@@ -43,10 +43,10 @@ For cloud professionals, the message isn't that AI will replace your job. The me
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure Copilot Agents bring AI-powered operational assistance to cloud management, offering cost optimization, security monitoring, and performance tuning that understands your specific environment.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Copilot", "AI", "Cloud Operations", "DevOps", "Automation"]
 }

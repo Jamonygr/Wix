@@ -1,5 +1,5 @@
 """
-Publish blogs 106-205 to Wix.
+Publish numbered Azure blogs to Wix.
 
 Discovers generated posts in the blogs folder, creates Wix draft posts, then
 publishes them. Existing published titles are skipped.
@@ -36,6 +36,75 @@ def headers():
         "wix-account-id": ACCOUNT_ID,
         "Content-Type": "application/json",
     }
+
+
+def is_http_url(value):
+    return isinstance(value, str) and value.startswith(("http://", "https://"))
+
+
+def is_wixstatic_media_url(value):
+    return is_http_url(value) and "wixstatic.com" in value and "/media/" in value
+
+
+def cover_mime_type(url):
+    normalized = url.lower().split("?", 1)[0]
+    if normalized.endswith((".jpg", ".jpeg")):
+        return "image/jpeg"
+    if normalized.endswith(".webp"):
+        return "image/webp"
+    if normalized.endswith(".png") or "/png" in normalized:
+        return "image/png"
+    return None
+
+
+def cover_display_name(title, url):
+    extension = ".png"
+    mime_type = cover_mime_type(url)
+    if mime_type == "image/jpeg":
+        extension = ".jpg"
+    elif mime_type == "image/webp":
+        extension = ".webp"
+
+    safe_title = re.sub(r"[^A-Za-z0-9]+", "_", title).strip("_").lower()
+    safe_title = safe_title[:64] or "azure_blog_cover"
+    return f"{safe_title}{extension}"
+
+
+def import_external_cover_image(cover_image, title):
+    if not cover_image or not is_http_url(cover_image) or is_wixstatic_media_url(cover_image):
+        return None
+
+    payload = {
+        "url": cover_image,
+        "displayName": cover_display_name(title, cover_image),
+        "parentFolderId": "media-root",
+    }
+    mime_type = cover_mime_type(cover_image)
+    if mime_type:
+        payload["mimeType"] = mime_type
+
+    print("Importing external cover image to Wix Media Manager...")
+    response = requests.post(
+        "https://www.wixapis.com/site-media/v1/files/import",
+        headers=headers(),
+        json=payload,
+        timeout=90,
+    )
+
+    if response.status_code not in [200, 201]:
+        print(f"Warning: failed to import cover image ({response.status_code}).")
+        print(response.text[:500])
+        return None
+
+    file_info = response.json().get("file", {})
+    media_id = file_info.get("id") or file_info.get("_id")
+    media_url = file_info.get("url") or file_info.get("fileUrl") or cover_image
+
+    if not media_id:
+        print("Warning: Wix image import succeeded but no media ID was returned.")
+        return None
+
+    return {"id": media_id, "url": media_url}
 
 
 def discover_blog_files(start, end):
@@ -112,7 +181,7 @@ def paragraph_to_text_nodes(paragraph):
 def rich_content_nodes(title, content, cover_image):
     nodes = []
 
-    if cover_image and "wixstatic.com" in cover_image:
+    if cover_image and is_http_url(cover_image):
         nodes.append({
             "type": "IMAGE",
             "id": "cover-img",
@@ -162,10 +231,12 @@ def rich_content_nodes(title, content, cover_image):
 def create_draft_post(blog_post):
     title = blog_post["title"]
     cover_image = blog_post.get("coverImage")
+    imported_cover = import_external_cover_image(cover_image, title)
+    rich_cover_image = imported_cover["url"] if imported_cover else cover_image
     draft_post = {
         "title": title,
         "richContent": {
-            "nodes": rich_content_nodes(title, blog_post["content"], cover_image),
+            "nodes": rich_content_nodes(title, blog_post["content"], rich_cover_image),
         },
         "memberId": ACCOUNT_ID,
     }
@@ -173,15 +244,28 @@ def create_draft_post(blog_post):
     if blog_post.get("excerpt"):
         draft_post["excerpt"] = blog_post["excerpt"]
 
-    if cover_image and "wixstatic.com" in cover_image and "/media/" in cover_image:
-        media_id = cover_image.split("/media/", 1)[1]
+    if is_wixstatic_media_url(rich_cover_image):
+        media_id = rich_cover_image.split("/media/", 1)[1]
         draft_post["media"] = {
             "wixMedia": {
                 "image": {
                     "id": media_id,
-                    "url": cover_image,
+                    "url": rich_cover_image,
                     "height": 1024,
                     "width": 1024,
+                }
+            },
+            "displayed": True,
+            "custom": False,
+        }
+    elif imported_cover:
+        draft_post["media"] = {
+            "wixMedia": {
+                "image": {
+                    "id": imported_cover["id"],
+                    "url": imported_cover["url"],
+                    "height": 675,
+                    "width": 1200,
                 }
             },
             "displayed": True,

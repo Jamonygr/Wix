@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1020" viewBox="0 0 1600 1020" role="img" aria-labelledby="title desc">
+  <title id="title">Production hardening checklist for Azure App Service</title>
+  <desc id="desc">An infographic showing five columns of production-hardening checks for network, edge, identity, observability, and delivery in a secure Azure App Service deployment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7FBFF"/>
+      <stop offset="100%" stop-color="#E8F3FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#174A7A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1020" fill="url(#bg)"/>
+  <text x="70" y="82" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" fill="#0A2A6D">Production Hardening Checklist</text>
+  <text x="70" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#4C6F97">Use this as the final screen before you call the platform ready for stakeholders, customers, or a portfolio review.</text>
+
+  <rect x="1230" y="62" rx="22" ry="22" width="280" height="58" fill="#0D3C9A"/>
+  <text x="1282" y="99" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">Review Gate: Passed</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="180" rx="28" ry="28" width="272" height="760" fill="#FFFFFF" stroke="#C4DAF8" stroke-width="2"/>
+    <rect x="370" y="180" rx="28" ry="28" width="272" height="760" fill="#FFFFFF" stroke="#C4DAF8" stroke-width="2"/>
+    <rect x="670" y="180" rx="28" ry="28" width="272" height="760" fill="#FFFFFF" stroke="#C4DAF8" stroke-width="2"/>
+    <rect x="970" y="180" rx="28" ry="28" width="272" height="760" fill="#FFFFFF" stroke="#C4DAF8" stroke-width="2"/>
+    <rect x="1270" y="180" rx="28" ry="28" width="260" height="760" fill="#FFFFFF" stroke="#C4DAF8" stroke-width="2"/>
+  </g>
+
+  <rect x="94" y="204" rx="20" ry="20" width="224" height="72" fill="#0D3C9A"/>
+  <rect x="394" y="204" rx="20" ry="20" width="224" height="72" fill="#1A5CC8"/>
+  <rect x="694" y="204" rx="20" ry="20" width="224" height="72" fill="#0E7B58"/>
+  <rect x="994" y="204" rx="20" ry="20" width="224" height="72" fill="#0D3C9A"/>
+  <rect x="1294" y="204" rx="20" ry="20" width="212" height="72" fill="#1A5CC8"/>
+
+  <text x="162" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">Network</text>
+  <text x="480" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">Edge</text>
+  <text x="776" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">Identity</text>
+  <text x="1032" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">Observe</text>
+  <text x="1360" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" fill="#FFFFFF">Release</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#35577F">
+    <text x="108" y="344">[x] Separate subnets for PE and VNet integration</text>
+    <text x="108" y="394">[x] Integration subnet sized for growth</text>
+    <text x="108" y="444">[x] Private DNS zones linked to the right VNets</text>
+    <text x="108" y="494">[x] UDR and NSG paths validated</text>
+    <text x="108" y="544">[x] Name resolution tested from app path</text>
+
+    <text x="408" y="344">[x] Front Door Premium is the only public edge</text>
+    <text x="408" y="394">[x] WAF policy attached and tuned</text>
+    <text x="408" y="444">[x] Rate limiting added to risky routes</text>
+    <text x="408" y="494">[x] Private Link origin approved</text>
+    <text x="408" y="544">[x] Public access disabled or tightly restricted</text>
+
+    <text x="708" y="344">[x] Managed identity enabled before wiring secrets</text>
+    <text x="708" y="394">[x] Key Vault Secrets User role assigned</text>
+    <text x="708" y="444">[x] Key Vault references used for true secrets</text>
+    <text x="708" y="494">[x] Secret rotation behavior documented</text>
+    <text x="708" y="544">[x] No embedded credentials in code or settings</text>
+
+    <text x="1008" y="344">[x] App Insights traces and dependencies enabled</text>
+    <text x="1008" y="394">[x] Front Door and WAF logs sent to Monitor</text>
+    <text x="1008" y="444">[x] Health endpoint exists and is cheap</text>
+    <text x="1008" y="494">[x] Alerts for 5xx, latency, and probe failure</text>
+    <text x="1008" y="544">[x] Dashboards match operator workflows</text>
+
+    <text x="1308" y="344">[x] Smoke test runs through Front Door</text>
+    <text x="1308" y="394">[x] Rollback path is documented</text>
+    <text x="1308" y="444">[x] Slot-specific secrets stay isolated</text>
+    <text x="1308" y="494">[x] Rotation drill completed</text>
+    <text x="1308" y="544">[x] Failover assumptions reviewed</text>
+  </g>
+
+  <g>
+    <rect x="106" y="618" rx="22" ry="22" width="200" height="250" fill="#F5FAFF" stroke="#C4DAF8" stroke-width="2"/>
+    <rect x="406" y="618" rx="22" ry="22" width="200" height="250" fill="#F5FAFF" stroke="#C4DAF8" stroke-width="2"/>
+    <rect x="706" y="618" rx="22" ry="22" width="200" height="250" fill="#F4FCF7" stroke="#B8E1C5" stroke-width="2"/>
+    <rect x="1006" y="618" rx="22" ry="22" width="200" height="250" fill="#F5FAFF" stroke="#C4DAF8" stroke-width="2"/>
+    <rect x="1306" y="618" rx="22" ry="22" width="188" height="250" fill="#F5FAFF" stroke="#C4DAF8" stroke-width="2"/>
+  </g>
+
+  <text x="140" y="674" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#0A2A6D">Failure mode to catch</text>
+  <text x="140" y="714" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">App can deploy successfully</text>
+  <text x="140" y="744" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">while DNS still points to</text>
+  <text x="140" y="774" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">the wrong network target.</text>
+
+  <text x="440" y="674" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#0A2A6D">Failure mode to catch</text>
+  <text x="440" y="714" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">WAF exists but runs in</text>
+  <text x="440" y="744" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">Detection forever with</text>
+  <text x="440" y="774" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">no ownership for tuning.</text>
+
+  <text x="740" y="674" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#0F6A40">Failure mode to catch</text>
+  <text x="740" y="714" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4E7B62">Managed identity exists,</text>
+  <text x="740" y="744" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4E7B62">but secret access was not</text>
+  <text x="740" y="774" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4E7B62">tested end to end.</text>
+
+  <text x="1040" y="674" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#0A2A6D">Failure mode to catch</text>
+  <text x="1040" y="714" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">There are logs, but no</text>
+  <text x="1040" y="744" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">alerts mapped to real</text>
+  <text x="1040" y="774" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">operator decisions.</text>
+
+  <text x="1338" y="674" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#0A2A6D">Failure mode to catch</text>
+  <text x="1338" y="714" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">A release succeeded,</text>
+  <text x="1338" y="744" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">but nobody tested the</text>
+  <text x="1338" y="774" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#4C6F97">secure traffic path.</text>
+</svg>

@@ -4,7 +4,8 @@ Blog Post 7: Azure Ultra Disk Next Generation
 
 BLOG_POST = {
     "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Picture a storage system so fast, it makes your current SSDs look like floppy drives. Imagine IOPS that would have been science fiction just a few years ago. That's what Microsoft just unleashed with the next generation of Azure Ultra Disk, and it's absolutely radical.
 
 For those running mission-critical workloads that demand the absolute peak of storage performance, this announcement is huge. We're talking about capabilities that enable new application architectures, new performance tiers, and new possibilities for what you can run in the cloud.
@@ -256,10 +257,10 @@ Fire up those I/O-intensive workloads, cloud warriors. The infrastructure is rea
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "The next generation of Azure Ultra Disk delivers record-breaking IOPS, sub-millisecond latency, and enterprise-grade resilience for mission-critical workloads. The storage revolution continues.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Ultra Disk", "Storage", "Performance", "Database", "Cloud Computing"]
 }

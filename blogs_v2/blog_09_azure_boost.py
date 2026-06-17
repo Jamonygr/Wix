@@ -4,9 +4,9 @@ Blog Post 9: Azure Boost - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
-    
-    "coverImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Every layer of abstraction comes with a cost. That's been the fundamental trade-off of cloud computing since its inception. You gain flexibility, operational simplicity, and pay-as-you-go economics, but you sacrifice some performance compared to running on bare metal. The virtualization layer that enables multi-tenancy and resource isolation necessarily consumes compute cycles that could otherwise go to your workloads.
 
 Azure Boost represents Microsoft's most ambitious effort to break this trade-off. By moving virtualization functions to purpose-built hardware, Azure Boost returns those stolen cycles to customer workloads while actually improving capabilities beyond what traditional virtualization could achieve. It's the kind of engineering effort that sounds simple in concept but requires tremendous execution to realize.
@@ -43,10 +43,10 @@ Microsoft continues investing in Azure Boost and its underlying technologies. Ea
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure Boost offloads virtualization to custom hardware, delivering 400 Gbps networking and 1 million IOPS storage—proving that cloud performance can match bare metal.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Azure Boost", "Infrastructure", "Performance", "Virtualization", "Cloud Computing"]
 }

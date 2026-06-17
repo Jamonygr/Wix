@@ -4,9 +4,9 @@ Blog Post 4: Azure HorizonDB - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
-    
-    "coverImage": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """There's something almost magical about PostgreSQL. It's the database that developers genuinely love, the engine that powers countless applications from scrappy startups to massive enterprises, the tool that keeps getting better while remaining true to its open-source roots. And now, Microsoft has given PostgreSQL the kind of performance upgrade that feels like strapping a jet engine to a already capable sports car.
 
 Azure HorizonDB represents Microsoft's answer to a question the industry has been asking for years: can you have the compatibility and community of PostgreSQL with the performance and operational simplicity of a purpose-built cloud database? The answer, it turns out, is a resounding yes—and the results are genuinely impressive.
@@ -41,10 +41,10 @@ For anyone running PostgreSQL workloads or considering PostgreSQL for new projec
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure HorizonDB delivers a reimagined PostgreSQL experience with 3x performance improvements, auto-scaling, and AI-powered optimization—all while maintaining full PostgreSQL compatibility.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "HorizonDB", "PostgreSQL", "Database", "Cloud Computing", "Performance"]
 }

@@ -4,9 +4,9 @@ Blog Post 12: Microsoft Sovereign Cloud - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
-    
-    "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """There's a tension at the heart of cloud computing that most vendors prefer not to discuss. The cloud's value proposition depends on pooled infrastructure, shared resources, and global operations. But an increasing number of organizations—governments, critical infrastructure operators, and enterprises handling sensitive data—need guarantees that their data never leaves specific jurisdictions and never becomes accessible to foreign authorities.
 
 Microsoft Sovereign Cloud represents the most serious attempt yet to resolve this tension. It's not a marketing term or a compliance checkbox. It's a fundamental rearchitecting of how cloud services operate, providing genuine data residency guarantees, operational isolation, and legal protections that generic cloud deployments cannot offer.
@@ -41,10 +41,10 @@ Microsoft's investment in sovereign cloud infrastructure reflects understanding 
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Microsoft Sovereign Cloud delivers genuine data sovereignty through technical controls, operational isolation, and legal protections—meeting requirements that standard cloud deployments cannot satisfy.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Sovereign Cloud", "Data Sovereignty", "Compliance", "Security", "Enterprise"]
 }

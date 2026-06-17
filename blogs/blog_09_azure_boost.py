@@ -4,7 +4,8 @@ Blog Post 9: Azure Boost
 
 BLOG_POST = {
     "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """What if I told you that Microsoft built a purpose-designed piece of silicon specifically to make your VMs faster? Not software optimization. Not better algorithms. Actual custom hardware that offloads the boring stuff so your VMs can focus on what matters. That's Azure Boost, and the latest generation is absolutely gnarly.
 
 For too long, virtualization has meant accepting overhead. The hypervisor needs resources. The host OS takes its cut. Network and storage operations eat into your CPU budget. Azure Boost changes this equation fundamentally, and the numbers are mind-blowing.
@@ -267,10 +268,10 @@ The virtualization tax has been paid in full. Azure Boost is the receipt.
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure Boost's latest generation delivers 20 GBps storage throughput, 1 million IOPS, and 400 Gbps networking through custom hardware acceleration. The virtualization tax is officially over.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Azure Boost", "Performance", "Infrastructure", "Cloud Computing", "Virtualization"]
 }

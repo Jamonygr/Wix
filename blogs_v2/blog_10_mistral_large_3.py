@@ -4,9 +4,9 @@ Blog Post 10: Mistral Large 3 - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
-    
-    "coverImage": "https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """The AI model landscape has been dominated by American giants for so long that we almost forgot competition could come from elsewhere. Then Mistral AI burst onto the scene from Paris, building frontier-class models with a fraction of the resources and a fundamentally different philosophy about openness and accessibility. Now, with Mistral Large 3's arrival in Microsoft Foundry, that European challenger takes center stage on one of the world's most important enterprise AI platforms.
 
 Mistral's approach to AI development challenges conventional wisdom at every turn. While competitors scale to ever-larger models requiring massive computational resources, Mistral has focused on efficiency—delivering impressive capabilities from more compact architectures. The result is a model that competes with much larger alternatives while running faster and costing less to deploy.
@@ -41,10 +41,10 @@ The future of AI is unlikely to be monopolized by any single approach or provide
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Mistral Large 3 brings European AI innovation to Microsoft Foundry, offering efficient, open-weight capabilities that compete with much larger models at a fraction of the cost.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Foundry", "Mistral", "AI", "Open Source", "Cloud Computing"]
 }

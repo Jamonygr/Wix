@@ -4,7 +4,8 @@ Blog Post 2: Microsoft Ignite 2025 Recap
 
 BLOG_POST = {
     "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Dust off your leather jackets and fire up the fog machines, because Microsoft Ignite 2025 just delivered a tech extravaganza that would make any 80s rock concert jealous. This wasn't just a conference—it was a full-throttle journey into the future of cloud computing, AI, and everything in between. And let me tell you, the announcements were absolutely electric.
 
 I've been tracking Azure updates for years, but Ignite 2025 felt different. It felt like Microsoft finally pulled back the curtain on their complete vision for the intelligent cloud—a vision where AI agents work alongside humans, where data flows seamlessly across every platform, and where security doesn't mean sacrificing innovation.
@@ -235,10 +236,10 @@ Fire up your terminals, cloud warriors. There's a lot of building to do.
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Microsoft Ignite 2025 delivered a tech extravaganza featuring agentic AI, Foundry expansions, database innovations, and infrastructure breakthroughs. Here's everything you need to know.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Ignite 2025", "AI", "Microsoft Foundry", "Cloud Computing", "Enterprise"]
 }

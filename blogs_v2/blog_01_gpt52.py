@@ -4,9 +4,9 @@ Blog Post 1: GPT-5.2 in Microsoft Foundry - Narrative Style with Image
 
 BLOG_POST = {
     "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
-    
-    "coverImage": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Picture this: you're standing at the edge of an infinite digital frontier, neon lights flickering against a darkened sky filled with possibility. That's exactly what it feels like watching Microsoft and OpenAI push the boundaries of artificial intelligence once again. GPT-5.2 has arrived in Microsoft Foundry, and let me tell you, this isn't just another incremental update. This is the kind of leap forward that makes you realize we're living in the future we once only dreamed about.
 
 When I first got my hands on GPT-5.2, I half expected to hear a synthesizer riff playing in the background. The model represents everything Microsoft has been building toward with their Foundry platform—a unified space where enterprises can harness the most powerful AI models available while maintaining the security, governance, and control that serious business applications demand. It's like having a DeLorean that's actually street legal and comes with full insurance coverage.
@@ -43,10 +43,10 @@ The future rushing toward us is bright, neon-lit, and filled with possibilities 
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "GPT-5.2 arrives in Microsoft Foundry with groundbreaking reasoning capabilities, expanded context windows, and enterprise-ready features that signal a new era in AI development.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Foundry", "GPT-5.2", "AI", "OpenAI", "Cloud Computing"]
 }

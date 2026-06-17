@@ -4,7 +4,8 @@ Blog Post 4: Azure HorizonDB - PostgreSQL Reimagined
 
 BLOG_POST = {
     "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Remember KITT from Knight Rider? That sleek, intelligent machine that was way ahead of its time? Well, Microsoft just gave PostgreSQL the KITT treatment with Azure HorizonDB, and the results are absolutely breathtaking. We're talking three times faster performance, auto-scaling replicas, and native AI integration that turns your humble database into a turbocharged intelligence engine.
 
 If you've been running PostgreSQL workloads and wondering whether the cloud could give you something better, wonder no more. HorizonDB is here, and it's ready to take your database game to the next level.
@@ -243,10 +244,10 @@ Fire up your terminals, cloud warriors. Your PostgreSQL workloads are about to e
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure HorizonDB delivers PostgreSQL performance 3x faster than open-source, with auto-scaling, native AI integration, and enterprise-grade features. The database revolution is here.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "HorizonDB", "PostgreSQL", "Database", "AI", "Cloud Computing"]
 }

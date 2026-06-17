@@ -4,9 +4,9 @@ Blog Post 2: Microsoft Ignite 2025 - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
-    
-    "coverImage": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Every year, the tech world holds its breath waiting for Microsoft Ignite, and every year, Microsoft manages to surprise us with announcements that reshape how we think about technology. But Ignite 2025 hit different. Walking through the virtual halls of this year's conference felt like stepping into a vision of the future that previous generations of technologists could only imagine in their wildest science fiction dreams.
 
 The conference opened with a palpable sense of anticipation. Microsoft had been dropping hints for months about major platform announcements, and the community had been buzzing with speculation. Would they finally announce the next generation of Azure AI services? Would there be fundamental changes to how we build and deploy applications? The answers, as it turned out, were yes and yes—and so much more.
@@ -43,10 +43,10 @@ The synthwave symphony of innovation that played throughout Ignite 2025 will kee
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Microsoft Ignite 2025 delivered a symphony of cloud innovation—from Microsoft Foundry to Azure infrastructure upgrades to database breakthroughs. Here's everything you need to know.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Ignite", "2025", "Cloud Computing", "AI", "Conference"]
 }
