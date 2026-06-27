@@ -6,13 +6,29 @@ posts that already exist instead of creating doubles.
 """
 
 import importlib.util
+import json
 import os
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
 
-import requests
-from dotenv import load_dotenv
 
-load_dotenv()
+def load_env_file():
+    env_path = os.path.join(os.path.dirname(__file__), ".env")
+    if not os.path.exists(env_path):
+        return
+
+    with open(env_path, "r", encoding="utf-8") as env_file:
+        for line in env_file:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
+
+
+load_env_file()
 
 API_KEY = os.getenv("WIX_API_KEY")
 SITE_ID = os.getenv("WIX_SITE_ID")
@@ -57,6 +73,35 @@ def headers():
         "wix-account-id": ACCOUNT_ID,
         "Content-Type": "application/json",
     }
+
+
+def request_json(method, url, payload=None, params=None):
+    if params:
+        url = f"{url}?{urllib.parse.urlencode(params)}"
+
+    data = None
+    if payload is not None:
+        data = json.dumps(payload).encode("utf-8")
+
+    request = urllib.request.Request(
+        url,
+        data=data,
+        headers=headers(),
+        method=method,
+    )
+
+    try:
+        with urllib.request.urlopen(request, timeout=60) as response:
+            body = response.read().decode("utf-8")
+            parsed = json.loads(body) if body else {}
+            return response.status, parsed, body
+    except urllib.error.HTTPError as error:
+        body = error.read().decode("utf-8", errors="replace")
+        try:
+            parsed = json.loads(body) if body else {}
+        except json.JSONDecodeError:
+            parsed = {}
+        return error.code, parsed, body
 
 
 def load_blog_post(file_path):
@@ -111,19 +156,19 @@ def build_rich_content(content):
 
 
 def get_existing_titles():
-    response = requests.get(
+    status, data, body = request_json(
+        "GET",
         "https://www.wixapis.com/blog/v3/posts",
-        headers=headers(),
         params={"paging.limit": 100},
     )
-    if response.status_code != 200:
-        print(f"Could not fetch existing posts: {response.status_code}")
-        print(response.text[:500])
+    if status != 200:
+        print(f"Could not fetch existing posts: {status}")
+        print(body[:500])
         return set()
 
     return {
         post.get("title", "").strip().lower()
-        for post in response.json().get("posts", [])
+        for post in data.get("posts", [])
         if post.get("title")
     }
 
@@ -139,30 +184,30 @@ def create_draft_post(blog_post):
     if blog_post.get("excerpt"):
         draft_post["excerpt"] = blog_post["excerpt"]
 
-    response = requests.post(
+    status, data, body = request_json(
+        "POST",
         "https://www.wixapis.com/blog/v3/draft-posts",
-        headers=headers(),
-        json={"draftPost": draft_post},
+        payload={"draftPost": draft_post},
     )
 
-    if response.status_code not in (200, 201):
-        print(f"Error creating draft: {response.status_code}")
-        print(response.text[:500])
+    if status not in (200, 201):
+        print(f"Error creating draft: {status}")
+        print(body[:500])
         return None
 
-    return response.json().get("draftPost", {}).get("id")
+    return data.get("draftPost", {}).get("id")
 
 
 def publish_draft(draft_id):
-    response = requests.post(
+    status, _, body = request_json(
+        "POST",
         f"https://www.wixapis.com/blog/v3/draft-posts/{draft_id}/publish",
-        headers=headers(),
-        json={},
+        payload={},
     )
 
-    if response.status_code not in (200, 201):
-        print(f"Error publishing draft: {response.status_code}")
-        print(response.text[:500])
+    if status not in (200, 201):
+        print(f"Error publishing draft: {status}")
+        print(body[:500])
         return False
 
     return True
@@ -214,4 +259,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
