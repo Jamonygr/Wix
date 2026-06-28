@@ -4,9 +4,9 @@ Blog Post 7: Azure Ultra Disk - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
-    
-    "coverImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """There's a special kind of frustration that comes from watching a powerful compute instance sit idle, waiting for storage to catch up. You've provisioned the fastest CPUs available, allocated generous memory, optimized your application code—and still, the disk becomes the bottleneck that nullifies all your other investments. It's like putting a racing engine in a car with square wheels.
 
 Azure Ultra Disk 2.0 exists to eliminate that frustration entirely. The latest evolution of Microsoft's highest-performance storage option pushes the boundaries of what cloud storage can achieve, delivering speeds and responsiveness that redefine expectations for enterprise workloads. When your application needs storage that simply cannot be the bottleneck, Ultra Disk 2.0 is the answer.
@@ -45,10 +45,10 @@ The future of cloud storage is being written in the engineering behind offerings
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure Ultra Disk 2.0 delivers up to 400,000 IOPS and 10 GBps throughput with sub-millisecond latency, finally eliminating storage as a bottleneck for demanding enterprise workloads.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Ultra Disk", "Storage", "Performance", "NVMe", "Cloud Infrastructure"]
 }

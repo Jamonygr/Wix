@@ -4,7 +4,8 @@ Blog Post 6: Microsoft Fabric IQ
 
 BLOG_POST = {
     "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Imagine if your data could think. Not just sit there waiting to be queried, but actually understand what it means, how it connects, and what insights it can offer. That's the vision behind Microsoft Fabric IQ, and let me tell you, it's like giving your entire data estate a cranial implant straight out of a cyberpunk novel.
 
 For years, we've been building data lakes, data warehouses, and analytics platforms. We've gotten really good at storing data and running queries. But there's always been a gap between having data and truly understanding it. Fabric IQ bridges that gap with intelligence that transforms raw data into actionable wisdom.
@@ -254,10 +255,10 @@ Your data has always held answers. Fabric IQ helps you finally hear them.
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Microsoft Fabric IQ transforms your data estate with a semantic layer that organizes information around business concepts—powering natural language queries, AI agents, and real-time intelligence.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Fabric", "Data Analytics", "AI", "Business Intelligence", "Semantic Layer"]
 }

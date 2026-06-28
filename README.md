@@ -39,6 +39,8 @@ node easyPost.js
 | `postBlog.js` | Main blog posting functions |
 | `easyPost.js` | Interactive blog poster |
 | `testConnection.js` | Test your Wix API connection |
+| `components/homepage_fancy_pack.html` | Wix-ready homepage CTA, terminal, start cards, latest posts, and newsletter section |
+| `docs/homepage_fancy_pack.md` | Placement notes for the homepage fancy pack |
 
 ## 📝 Creating a Blog Post Programmatically
 

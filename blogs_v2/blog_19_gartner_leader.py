@@ -4,9 +4,9 @@ Blog Post 19: Microsoft Gartner Magic Quadrant Leader - Narrative Style with Ima
 
 BLOG_POST = {
     "title": "Microsoft Named Gartner Magic Quadrant Leader: When the Analysts Say You're Totally Rad",
-    
-    "coverImage": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Analyst recognition matters in enterprise technology. It shouldn't be the only factor in platform decisions, but it provides valuable signal about market positioning, capability maturity, and competitive strength. When Gartner names a company a Leader in one of their Magic Quadrant evaluations, enterprise buyers pay attention. And when that recognition comes in AI Application Development Platforms, one of the most strategically important technology categories of our era, it tells us something significant about where the market is heading.
 
 Microsoft's position as a Leader in the Magic Quadrant for AI Application Development Platforms validates what practitioners have been observing on the ground. The combination of Microsoft Foundry, Azure AI Services, and the broader Azure ecosystem has created something genuinely powerful—a comprehensive platform for building AI applications that meets enterprise requirements while providing access to frontier capabilities.
@@ -39,10 +39,10 @@ The broader message from Microsoft's recognition is that enterprise AI platforms
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Microsoft's recognition as a Gartner Magic Quadrant Leader for AI Application Development Platforms validates their comprehensive approach to enterprise AI.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Foundry", "AI", "Gartner", "Magic Quadrant", "Enterprise"]
 }

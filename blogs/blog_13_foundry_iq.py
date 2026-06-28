@@ -4,7 +4,8 @@ Blog Post 13: Foundry IQ
 
 BLOG_POST = {
     "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Picture an AI assistant that doesn't just generate plausible-sounding responses—it actually knows your data, respects your permissions, and grounds every answer in facts from your specific business. That's Foundry IQ, and it's changing how enterprises build intelligent applications.
 
 We've all experienced AI hallucinations. The confident but wrong answers. The made-up statistics. The fabricated references. Foundry IQ addresses this head-on by connecting AI models to verified enterprise data through intelligent retrieval that just works.
@@ -337,10 +338,10 @@ Your data has always had answers. Foundry IQ helps AI find them.
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Foundry IQ provides pre-configured knowledge bases, intelligent retrieval, and permission-aware access to connect AI agents to enterprise data. Building RAG just got radically easier.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Foundry", "Foundry IQ", "AI", "RAG", "Enterprise AI"]
 }

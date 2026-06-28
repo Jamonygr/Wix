@@ -4,9 +4,9 @@ Blog Post 20: Azure Pulse December 2025 - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
-    
-    "coverImage": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """December brings the year to a close, but Microsoft's Azure team clearly hasn't slowed down for the holidays. The final month of 2025 has delivered a cascade of updates, improvements, and announcements that deserve attention before we turn our calendars to a new year. Let's take a comprehensive look at what's landed in Azure this month and what it means for practitioners working in the cloud.
 
 The AI announcements dominated the month's news, as they've dominated much of the year. GPT-5.2's general availability in Microsoft Foundry represented the headline, bringing the latest frontier model to enterprise deployments. But the supporting announcements mattered too—Anthropic Claude's full integration, Mistral Large 3's arrival, and the continued expansion of the model catalog that gives enterprises genuine choice in how they build AI applications.
@@ -41,10 +41,10 @@ Happy holidays, and see you in 2026!
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Your comprehensive December 2025 Azure update covering GPT-5.2, HorizonDB, infrastructure advances, security updates, and everything else that landed this month.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Azure Pulse", "December 2025", "Cloud Computing", "AI", "Monthly Update"]
 }

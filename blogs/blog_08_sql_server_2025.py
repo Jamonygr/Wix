@@ -4,7 +4,8 @@ Blog Post 8: SQL Server 2025
 
 BLOG_POST = {
     "title": "SQL Server 2025: The Classic Database Gets an AI Makeover That Slaps",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """SQL Server has been the backbone of enterprise data for over two decades. It's the reliable workhorse that powers everything from small business applications to Fortune 500 operations. And now, with SQL Server 2025, Microsoft is giving this classic a radical upgrade that brings AI innovation directly into the familiar T-SQL world we know and love.
 
 This isn't just another version bump with incremental improvements. SQL Server 2025 represents a strategic reimagining of what the world's most popular enterprise database can be in an AI-first world. And let me tell you, the possibilities are absolutely tubular.
@@ -281,10 +282,10 @@ Your data has been waiting for this moment. SQL Server 2025 is ready to unlock i
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "SQL Server 2025 brings AI directly into the database with native vector search, ML model integration, and OneLake connectivity. The classic database gets a radical upgrade for the AI era.",
-    
+
     "publish": True,
-    
+
     "tags": ["SQL Server", "Database", "AI", "Microsoft", "Azure", "Enterprise"]
 }

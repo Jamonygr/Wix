@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940" role="img" aria-labelledby="title desc">
+  <title id="title">Terraform hub-spoke landing zone architecture</title>
+  <desc id="desc">Diagram showing a hub network with Azure Firewall, Bastion, Private DNS Resolver, and multiple spokes connected through peering and route tables.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6FBFF"/>
+      <stop offset="100%" stop-color="#E8F3FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1A4678" flood-opacity="0.14"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#2C77DA"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="940" fill="url(#bg)"/>
+  <text x="70" y="82" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="800" fill="#0A2A6D">Terraform Hub-Spoke Landing Zone</text>
+  <text x="70" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500" fill="#4D6F96">Centralized egress, shared DNS, repeatable spoke onboarding.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="500" y="190" rx="32" ry="32" width="600" height="520" fill="#FFFFFF" stroke="#C8DCF7" stroke-width="3"/>
+    <rect x="620" y="260" rx="24" ry="24" width="160" height="90" fill="#173360"/>
+    <rect x="820" y="260" rx="24" ry="24" width="180" height="90" fill="#0D3C9A"/>
+    <rect x="655" y="400" rx="22" ry="22" width="310" height="88" fill="#FFFFFF" stroke="#C8DCF7" stroke-width="2"/>
+    <rect x="640" y="530" rx="22" ry="22" width="140" height="70" fill="#EEF5FF" stroke="#C8DCF7" stroke-width="2"/>
+    <rect x="840" y="530" rx="22" ry="22" width="180" height="70" fill="#EAF8EE" stroke="#B9E1C6" stroke-width="2"/>
+
+    <rect x="90" y="330" rx="28" ry="28" width="280" height="200" fill="#FFFFFF" stroke="#C8DCF7" stroke-width="2"/>
+    <rect x="1230" y="260" rx="28" ry="28" width="280" height="200" fill="#FFFFFF" stroke="#C8DCF7" stroke-width="2"/>
+    <rect x="1230" y="540" rx="28" ry="28" width="280" height="200" fill="#FFFFFF" stroke="#C8DCF7" stroke-width="2"/>
+
+    <rect x="90" y="720" rx="22" ry="22" width="280" height="90" fill="#FFFFFF" stroke="#C8DCF7" stroke-width="2"/>
+    <rect x="500" y="760" rx="22" ry="22" width="280" height="50" fill="#EEF5FF" stroke="#C8DCF7" stroke-width="2"/>
+    <rect x="850" y="760" rx="22" ry="22" width="300" height="50" fill="#EEF5FF" stroke="#C8DCF7" stroke-width="2"/>
+  </g>
+
+  <text x="675" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" fill="#0A2A6D">Hub VNet</text>
+  <text x="648" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">Bastion</text>
+  <text x="854" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#FFFFFF">Azure Firewall</text>
+  <text x="722" y="455" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" fill="#0A2A6D">Private DNS Resolver</text>
+  <text x="678" y="575" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#0A2A6D">Route</text>
+  <text x="878" y="575" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#106B42">DNS Ruleset</text>
+
+  <text x="145" y="385" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#0A2A6D">Spoke Apps</text>
+  <text x="146" y="418" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#4D6F96">Private endpoints, app subnets, UDRs</text>
+  <text x="1274" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#0A2A6D">Spoke Data</text>
+  <text x="1274" y="348" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#4D6F96">Databases and internal services</text>
+  <text x="1266" y="595" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#0A2A6D">Spoke Shared</text>
+  <text x="1274" y="628" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#4D6F96">Future spokes onboard with for_each</text>
+
+  <text x="168" y="777" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" fill="#0A2A6D">On-Prem / Branch DNS Queries</text>
+  <text x="568" y="793" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#0A2A6D">Forced Egress Through Firewall</text>
+  <text x="910" y="793" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#0A2A6D">Private Name Resolution Governance</text>
+
+  <path d="M370 430 H492" stroke="#2C77DA" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M1100 430 H1222" stroke="#2C77DA" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M1100 640 H1222" stroke="#2C77DA" stroke-width="6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M230 720 V538" stroke="#476997" stroke-width="5" stroke-dasharray="11 10" fill="none" marker-end="url(#arrow)"/>
+  <path d="M650 760 V710" stroke="#476997" stroke-width="5" stroke-dasharray="11 10" fill="none" marker-end="url(#arrow)"/>
+  <path d="M990 760 V600" stroke="#476997" stroke-width="5" stroke-dasharray="11 10" fill="none" marker-end="url(#arrow)"/>
+</svg>

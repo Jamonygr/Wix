@@ -4,9 +4,9 @@ Blog Post 14: Azure Cobalt 200 - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Azure Cobalt 200: Microsoft's ARM Processor Flexes Its Muscles Like an 80s Action Hero",
-    
-    "coverImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """There's a quiet revolution happening in datacenters around the world, and it's being led by processors that share their architectural roots with your smartphone. ARM processors, once dismissed as toys suitable only for battery-powered devices, have muscled their way into the server room. And now, with Azure Cobalt 200, Microsoft is making a statement that this isn't just a trend—it's the future of cloud computing.
 
 Cobalt 200 represents Microsoft's second generation of custom ARM processors, designed specifically for the demands of cloud workloads. This isn't a rebranded commodity chip or a reference design with minor modifications. Microsoft's silicon team has built a processor tailored to what Azure workloads actually need, optimizing for the specific characteristics of cloud computing in ways that general-purpose processors cannot match.
@@ -41,10 +41,10 @@ For architects planning cloud strategies, ARM capability should factor into deci
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure Cobalt 200 delivers Microsoft's custom ARM processor technology, bringing efficiency, cost savings, and sustainable computing to cloud workloads without sacrificing performance.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Cobalt 200", "ARM", "Processor", "Infrastructure", "Cloud Computing"]
 }

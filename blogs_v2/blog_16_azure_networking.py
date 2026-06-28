@@ -4,9 +4,9 @@ Blog Post 16: Azure Networking Updates - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
-    
-    "coverImage": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Networking is the circulatory system of cloud computing. Every request, every data transfer, every connection depends on the network infrastructure that ties everything together. When networking works well, it's invisible. When it fails or falters, nothing else matters. The applications can be brilliant, the data can be valuable, the compute can be powerful—but without reliable networking, none of it reaches users.
 
 Microsoft's latest wave of Azure networking updates addresses the full spectrum of what enterprise networks require. Security enhancements protect against evolving threats. Reliability improvements reduce the frequency and impact of disruptions. High availability features ensure that even component failures don't translate to user-visible outages. These aren't flashy announcements that generate headlines, but they're exactly the improvements that keep production systems running smoothly.
@@ -41,10 +41,10 @@ Looking at the trajectory of cloud networking, the investments Microsoft continu
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure networking receives comprehensive updates across security, reliability, and high availability—from DDoS protection to zone redundancy to global load balancing.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Networking", "Security", "High Availability", "Infrastructure", "Cloud Computing"]
 }

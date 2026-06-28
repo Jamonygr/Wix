@@ -4,7 +4,8 @@ Blog Post 16: Azure Networking Updates
 
 BLOG_POST = {
     "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """In the cloud world, networking is the circulatory system—it connects everything and keeps your applications alive. Microsoft just dropped a collection of Azure networking updates focused on security, reliability, and high availability. These aren't flashy announcements, but they're the kind of improvements that prevent 3 AM pages and keep your applications humming.
 
 Let's jack into the network and explore what's new.
@@ -312,10 +313,10 @@ Your packets are ready for their upgraded journey. Make sure your networks are c
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure networking receives major updates focusing on security, reliability, and high availability—including DDoS protection, zone redundancy, and Private Link expansion. The network backbone gets stronger.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Networking", "Security", "High Availability", "Infrastructure", "Cloud Computing"]
 }

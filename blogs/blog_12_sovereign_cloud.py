@@ -4,7 +4,8 @@ Blog Post 12: Microsoft Sovereign Cloud
 
 BLOG_POST = {
     "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """In a world where data is the new oil, some organizations need Fort Knox-level protection. Government agencies, critical infrastructure, defense contractors—these aren't your average cloud customers. They need clouds that operate under strict national control, with data that never leaves sovereign territory and operations that meet the most stringent compliance requirements.
 
 Microsoft just significantly strengthened their sovereign cloud capabilities, and the implications are massive for organizations operating in regulated environments. This isn't just about checking compliance boxes—it's about enabling digital transformation for entities that previously had to choose between innovation and security.
@@ -335,10 +336,10 @@ Your data doesn't need a passport. It needs diplomatic immunity. Microsoft Sover
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Microsoft strengthens sovereign cloud with enhanced encryption, expanded services, and deeper localization. For organizations where data sovereignty is non-negotiable, the options just got radically better.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Sovereign Cloud", "Security", "Compliance", "Government", "Enterprise"]
 }

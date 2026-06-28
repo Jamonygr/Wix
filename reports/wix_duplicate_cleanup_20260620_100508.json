@@ -1,0 +1,3620 @@
+{
+  "startedUtc": "2026-06-20T08:05:05Z",
+  "mode": "move_to_trash_not_permanent_delete",
+  "initialPublishedPostCount": 444,
+  "duplicateTitleGroupsInitial": 37,
+  "contentDuplicateGroupsCleaned": 35,
+  "coverUpdatesPlanned": 34,
+  "testPostsDeleted": [
+    {
+      "id": "d6bc14a9-b6bf-4445-a3bb-88041da7799b",
+      "title": "TEST - Image Display Test (Delete Me)",
+      "slug": "test-image-display-test-delete-me",
+      "firstPublishedDate": "2026-01-08T18:31:12.331Z",
+      "lastPublishedDate": "2026-01-08T18:31:12.331Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": true,
+        "custom": false
+      }
+    },
+    {
+      "id": "0b589577-519b-4c01-a969-201dcb331cad",
+      "title": "TEST - Image Display Test (Delete Me)",
+      "slug": "test-image-display-test-delete-me-1",
+      "firstPublishedDate": "2026-01-08T18:31:29.690Z",
+      "lastPublishedDate": "2026-01-08T18:31:29.690Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": true,
+        "custom": false
+      }
+    },
+    {
+      "id": "1d942c15-c76e-42a6-9c91-9d7df6693305",
+      "title": "TEST - Image Display Test (Delete Me)",
+      "slug": "test-image-display-test-delete-me-2",
+      "firstPublishedDate": "2026-01-08T18:31:48.569Z",
+      "lastPublishedDate": "2026-01-08T18:31:48.569Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": true,
+        "custom": false
+      }
+    },
+    {
+      "id": "e1310a67-b4e4-490b-9591-4071f3c08aa5",
+      "title": "TEST Cover R2-1 - DELETE ME",
+      "slug": "test-cover-r2-1-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:41.582Z",
+      "lastPublishedDate": "2026-01-08T18:39:41.582Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": false,
+        "custom": false
+      }
+    },
+    {
+      "id": "fa2453a9-9fb4-4c1a-a3c4-3fcbc58dd910",
+      "title": "TEST Cover R2-2 - DELETE ME",
+      "slug": "test-cover-r2-2-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:42.779Z",
+      "lastPublishedDate": "2026-01-08T18:39:42.779Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": false,
+        "custom": false
+      }
+    },
+    {
+      "id": "230a82d0-646e-45e2-8367-9588414c5e04",
+      "title": "TEST Cover R2-3 - DELETE ME",
+      "slug": "test-cover-r2-3-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:43.837Z",
+      "lastPublishedDate": "2026-01-08T18:39:43.837Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": false,
+        "custom": false
+      }
+    },
+    {
+      "id": "f7fe3743-5ac5-415c-9caa-0a9c5db2f184",
+      "title": "TEST Cover R2-4 - DELETE ME",
+      "slug": "test-cover-r2-4-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:45.263Z",
+      "lastPublishedDate": "2026-01-08T18:39:45.263Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": false,
+        "custom": false
+      }
+    },
+    {
+      "id": "59e5e523-9c0d-4887-af31-e8498895bc8f",
+      "title": "TEST Cover R2-5 - DELETE ME",
+      "slug": "test-cover-r2-5-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:47.026Z",
+      "lastPublishedDate": "2026-01-08T18:39:47.026Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": false,
+        "custom": false
+      }
+    },
+    {
+      "id": "bbff9f01-8080-4254-98a1-a2d20c6bbe92",
+      "title": "TEST Cover R2-7 - DELETE ME",
+      "slug": "test-cover-r2-7-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:49.036Z",
+      "lastPublishedDate": "2026-01-08T18:39:49.036Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": false,
+        "custom": false
+      }
+    },
+    {
+      "id": "e2113bf7-3004-4cc9-96f9-bd655aece92c",
+      "title": "TEST Cover media.imag - DELETE",
+      "slug": "test-cover-media-imag-delete",
+      "firstPublishedDate": "2026-01-08T18:40:44.755Z",
+      "lastPublishedDate": "2026-01-08T18:40:44.755Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": true,
+        "custom": false
+      }
+    },
+    {
+      "id": "84d97c29-1fb1-481a-bce5-6c53e0e39e6c",
+      "title": "TEST Cover media.imag - DELETE",
+      "slug": "test-cover-media-imag-delete-1",
+      "firstPublishedDate": "2026-01-08T18:40:46.660Z",
+      "lastPublishedDate": "2026-01-08T18:40:46.660Z",
+      "hasMedia": false,
+      "media": {
+        "displayed": true,
+        "custom": false
+      }
+    },
+    {
+      "id": "24809701-7b51-47a0-a885-f2df1e2b8d0d",
+      "title": "TEST - Cover Image Final Test - DELETE ME",
+      "slug": "test-cover-image-final-test-delete-me",
+      "firstPublishedDate": "2026-01-08T18:42:16.396Z",
+      "lastPublishedDate": "2026-01-08T18:42:16.396Z",
+      "hasMedia": true,
+      "media": {
+        "wixMedia": {
+          "image": {
+            "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+            "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+            "height": 1024,
+            "width": 1024,
+            "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+          }
+        },
+        "displayed": true,
+        "custom": false
+      }
+    }
+  ],
+  "duplicateGroups": [
+    {
+      "title": "A Decade of Open Innovation: Microsoft and Red Hat's Partnership Proves Rivals Can Be Radical Allies",
+      "kept": {
+        "id": "e99796d6-739c-44ea-ba29-55ee1d01996e",
+        "title": "A Decade of Open Innovation: Microsoft and Red Hat's Partnership Proves Rivals Can Be Radical Allies",
+        "slug": "a-decade-of-open-innovation-microsoft-and-red-hat-s-partnership-proves-rivals-can-be-radical-allies",
+        "firstPublishedDate": "2025-12-23T19:00:35.845Z",
+        "lastPublishedDate": "2025-12-23T19:00:35.845Z",
+        "hasMedia": true,
+        "media": {
+          "wixMedia": {
+            "image": {
+              "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+              "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+              "height": 1024,
+              "width": 1024,
+              "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+            }
+          },
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "c9405569-5cbb-42e8-b2ee-5bcd0a662d8c",
+          "title": "A Decade of Open Innovation: Microsoft and Red Hat's Partnership Proves Rivals Can Be Radical Allies",
+          "slug": "a-decade-of-open-innovation-microsoft-and-red-hat-s-partnership-proves-rivals-can-be-radical-allies-1",
+          "firstPublishedDate": "2025-12-23T19:22:36.078Z",
+          "lastPublishedDate": "2025-12-23T19:22:36.078Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "87b89367-2f4f-4a5e-a706-001a67a9a9da",
+          "title": "A Decade of Open Innovation: Microsoft and Red Hat's Partnership Proves Rivals Can Be Radical Allies",
+          "slug": "a-decade-of-open-innovation-microsoft-and-red-hat-s-partnership-proves-rivals-can-be-radical-allies-2",
+          "firstPublishedDate": "2026-03-25T18:02:03.128Z",
+          "lastPublishedDate": "2026-03-25T18:02:03.128Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": false
+    },
+    {
+      "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+      "kept": {
+        "id": "9b74863a-4a87-40fb-9598-ac0b829dbc1e",
+        "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+        "slug": "agent-hq-arrives-github-s-vision-for-ai-agents-that-work-any-way-you-work",
+        "firstPublishedDate": "2026-01-08T18:19:25.487Z",
+        "lastPublishedDate": "2026-01-08T18:19:25.487Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "bc4cab18-ab13-41c5-9ecd-fc0b7f1d6266",
+          "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+          "slug": "agent-hq-arrives-github-s-vision-for-ai-agents-that-work-any-way-you-work-1",
+          "firstPublishedDate": "2026-01-08T18:28:30.560Z",
+          "lastPublishedDate": "2026-01-08T18:28:30.560Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "3bba5b8e-ae6d-4f10-9945-7fd6cd61d9ad",
+          "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+          "slug": "agent-hq-arrives-github-s-vision-for-ai-agents-that-work-any-way-you-work-2",
+          "firstPublishedDate": "2026-01-08T18:33:49.001Z",
+          "lastPublishedDate": "2026-01-08T18:33:49.001Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "945cd50b-e8e9-458b-a206-7a34c203f260",
+          "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+          "slug": "agent-hq-arrives-github-s-vision-for-ai-agents-that-work-any-way-you-work-3",
+          "firstPublishedDate": "2026-01-08T18:43:31.096Z",
+          "lastPublishedDate": "2026-01-08T18:43:31.096Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+      "kept": {
+        "id": "78f90861-251e-49e6-889a-bc6c86281ad7",
+        "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+        "slug": "agent-to-agent-protocol-arrives-in-net-building-the-neural-pathways-of-multi-agent-ai-systems",
+        "firstPublishedDate": "2026-01-08T18:18:49.882Z",
+        "lastPublishedDate": "2026-01-08T18:18:49.882Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "3f7e7e6a-ef5d-4c3d-a6ef-cb7ce8e7123b",
+          "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+          "slug": "agent-to-agent-protocol-arrives-in-net-building-the-neural-pathways-of-multi-agent-ai-systems-1",
+          "firstPublishedDate": "2026-01-08T18:27:56.452Z",
+          "lastPublishedDate": "2026-01-08T18:27:56.452Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "48ea402f-6e8f-4aed-93c1-78b20fca705c",
+          "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+          "slug": "agent-to-agent-protocol-arrives-in-net-building-the-neural-pathways-of-multi-agent-ai-systems-2",
+          "firstPublishedDate": "2026-01-08T18:33:13.386Z",
+          "lastPublishedDate": "2026-01-08T18:33:13.386Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "e2c5a5db-ca2e-450a-9d15-d1f15f9c6dea",
+          "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+          "slug": "agent-to-agent-protocol-arrives-in-net-building-the-neural-pathways-of-multi-agent-ai-systems-3",
+          "firstPublishedDate": "2026-01-08T18:42:49.308Z",
+          "lastPublishedDate": "2026-01-08T18:42:49.308Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+      "kept": {
+        "id": "ef214c42-1888-4696-9b75-0d623b3fe64c",
+        "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+        "slug": "anthropic-claude-crashes-the-azure-party-the-ultimate-ai-tag-team-has-arrived",
+        "firstPublishedDate": "2025-12-23T18:59:52.479Z",
+        "lastPublishedDate": "2025-12-23T18:59:52.479Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "693ea183-e577-4353-afa5-0a58beb638f6",
+          "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+          "slug": "anthropic-claude-crashes-the-azure-party-the-ultimate-ai-tag-team-has-arrived-1",
+          "firstPublishedDate": "2025-12-23T19:19:23.657Z",
+          "lastPublishedDate": "2025-12-23T19:19:23.657Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "33718d85-4d9e-4a19-9573-7f0137cd2c49",
+          "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+          "slug": "anthropic-claude-crashes-the-azure-party-the-ultimate-ai-tag-team-has-arrived-2",
+          "firstPublishedDate": "2025-12-23T19:22:02.050Z",
+          "lastPublishedDate": "2025-12-23T19:22:02.050Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "0af3c1f5-4744-4caa-96a3-7b8d7cb8d45b",
+          "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+          "slug": "anthropic-claude-crashes-the-azure-party-the-ultimate-ai-tag-team-has-arrived-3",
+          "firstPublishedDate": "2026-03-25T18:01:19.839Z",
+          "lastPublishedDate": "2026-03-25T18:01:19.839Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
+      "kept": {
+        "id": "b453d572-11c3-44e1-9f6f-6e311e5081bb",
+        "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
+        "slug": "azure-boost-microsoft-s-secret-sauce-for-virtualization-performance-is-totally-gnarly",
+        "firstPublishedDate": "2025-12-23T19:00:10.818Z",
+        "lastPublishedDate": "2025-12-23T19:00:10.818Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "fd924c6a-111f-487a-b24b-cd805786e4fe",
+          "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
+          "slug": "azure-boost-microsoft-s-secret-sauce-for-virtualization-performance-is-totally-gnarly-1",
+          "firstPublishedDate": "2025-12-23T19:22:16.607Z",
+          "lastPublishedDate": "2025-12-23T19:22:16.607Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "4d92d2ee-bbc7-4cfa-baf9-fd29fa58b8b8",
+          "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
+          "slug": "azure-boost-microsoft-s-secret-sauce-for-virtualization-performance-is-totally-gnarly-2",
+          "firstPublishedDate": "2026-03-25T18:01:37.174Z",
+          "lastPublishedDate": "2026-03-25T18:01:37.174Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Cobalt 200: Microsoft's ARM Processor Flexes Its Muscles Like an 80s Action Hero",
+      "kept": {
+        "id": "63b11af9-1ba3-44fd-b874-4ed620b03f72",
+        "title": "Azure Cobalt 200: Microsoft's ARM Processor Flexes Its Muscles Like an 80s Action Hero",
+        "slug": "azure-cobalt-200-microsoft-s-arm-processor-flexes-its-muscles-like-an-80s-action-hero",
+        "firstPublishedDate": "2025-12-23T19:00:26.504Z",
+        "lastPublishedDate": "2025-12-23T19:00:26.504Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "55c06719-d721-46c2-a2cb-d92be35d2632",
+          "title": "Azure Cobalt 200: Microsoft's ARM Processor Flexes Its Muscles Like an 80s Action Hero",
+          "slug": "azure-cobalt-200-microsoft-s-arm-processor-flexes-its-muscles-like-an-80s-action-hero-1",
+          "firstPublishedDate": "2025-12-23T19:22:28.916Z",
+          "lastPublishedDate": "2025-12-23T19:22:28.916Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "d34a814b-2b83-4286-86ed-31bcef898058",
+          "title": "Azure Cobalt 200: Microsoft's ARM Processor Flexes Its Muscles Like an 80s Action Hero",
+          "slug": "azure-cobalt-200-microsoft-s-arm-processor-flexes-its-muscles-like-an-80s-action-hero-2",
+          "firstPublishedDate": "2026-03-25T18:01:53.602Z",
+          "lastPublishedDate": "2026-03-25T18:01:53.602Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+      "kept": {
+        "id": "02915460-263b-418c-8682-f7761eba6f76",
+        "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+        "slug": "azure-container-apps-networking-gets-a-major-upgrade-consumption-environments-just-got-seriously-po",
+        "firstPublishedDate": "2026-01-08T18:19:02.948Z",
+        "lastPublishedDate": "2026-01-08T18:19:02.948Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "94f411be-b6f5-4cca-ba2c-d6e797c7d19d",
+          "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+          "slug": "azure-container-apps-networking-gets-a-major-upgrade-consumption-environments-just-got-seriously-po-1",
+          "firstPublishedDate": "2026-01-08T18:28:08.968Z",
+          "lastPublishedDate": "2026-01-08T18:28:08.968Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "bd8361fe-d7ba-43fa-8fbb-ad7914841a2c",
+          "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+          "slug": "azure-container-apps-networking-gets-a-major-upgrade-consumption-environments-just-got-seriously-po-2",
+          "firstPublishedDate": "2026-01-08T18:33:26.712Z",
+          "lastPublishedDate": "2026-01-08T18:33:26.712Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "9e91bd2b-bf24-4557-b746-e5a64a51bebb",
+          "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+          "slug": "azure-container-apps-networking-gets-a-major-upgrade-consumption-environments-just-got-seriously-po-3",
+          "firstPublishedDate": "2026-01-08T18:43:04.235Z",
+          "lastPublishedDate": "2026-01-08T18:43:04.235Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+      "kept": {
+        "id": "47180d52-2cdd-49e5-9c58-b1cf339f5b83",
+        "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+        "slug": "azure-copilot-agents-your-cloud-operations-just-got-a-rad-ai-pit-crew",
+        "firstPublishedDate": "2025-12-23T18:59:58.755Z",
+        "lastPublishedDate": "2025-12-23T18:59:58.755Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "8e4f6cd9-73be-4d57-bd4d-87c0b48f5bce",
+          "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+          "slug": "azure-copilot-agents-your-cloud-operations-just-got-a-rad-ai-pit-crew-1",
+          "firstPublishedDate": "2025-12-23T19:19:28.237Z",
+          "lastPublishedDate": "2025-12-23T19:19:28.237Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "89fefbcf-9855-4acf-9439-d05fff43da1c",
+          "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+          "slug": "azure-copilot-agents-your-cloud-operations-just-got-a-rad-ai-pit-crew-2",
+          "firstPublishedDate": "2025-12-23T19:22:06.795Z",
+          "lastPublishedDate": "2025-12-23T19:22:06.795Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "4e3fc6d3-af06-4197-aad0-89e4d31e4b7d",
+          "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+          "slug": "azure-copilot-agents-your-cloud-operations-just-got-a-rad-ai-pit-crew-3",
+          "firstPublishedDate": "2026-03-25T18:01:25.817Z",
+          "lastPublishedDate": "2026-03-25T18:01:25.817Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure DocumentDB: The Open-Source NoSQL Champion Goes Multi-Cloud and AI-Ready",
+      "kept": {
+        "id": "a922414f-6429-4dd7-ab49-38db444d1c72",
+        "title": "Azure DocumentDB: The Open-Source NoSQL Champion Goes Multi-Cloud and AI-Ready",
+        "slug": "azure-documentdb-the-open-source-nosql-champion-goes-multi-cloud-and-ai-ready",
+        "firstPublishedDate": "2025-12-23T19:00:17.217Z",
+        "lastPublishedDate": "2025-12-23T19:00:17.217Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "7c95d8d3-43d0-4867-a369-ea9a1a1eb579",
+          "title": "Azure DocumentDB: The Open-Source NoSQL Champion Goes Multi-Cloud and AI-Ready",
+          "slug": "azure-documentdb-the-open-source-nosql-champion-goes-multi-cloud-and-ai-ready-1",
+          "firstPublishedDate": "2025-12-23T19:22:21.394Z",
+          "lastPublishedDate": "2025-12-23T19:22:21.394Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "de82eeff-81c3-4ba1-b041-0b145d32d260",
+          "title": "Azure DocumentDB: The Open-Source NoSQL Champion Goes Multi-Cloud and AI-Ready",
+          "slug": "azure-documentdb-the-open-source-nosql-champion-goes-multi-cloud-and-ai-ready-2",
+          "firstPublishedDate": "2026-03-25T18:01:43.466Z",
+          "lastPublishedDate": "2026-03-25T18:01:43.466Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+      "kept": {
+        "id": "0fd5483d-a9c3-4c82-a610-02bf67e700ef",
+        "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+        "slug": "azure-horizondb-postgresql-gets-a-turbo-boost-that-would-make-kitt-jealous",
+        "firstPublishedDate": "2025-12-23T18:59:55.534Z",
+        "lastPublishedDate": "2025-12-23T18:59:55.534Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "c494a821-525c-49b3-a345-a78ebefc9672",
+          "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+          "slug": "azure-horizondb-postgresql-gets-a-turbo-boost-that-would-make-kitt-jealous-1",
+          "firstPublishedDate": "2025-12-23T19:19:25.853Z",
+          "lastPublishedDate": "2025-12-23T19:19:25.853Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "f23c7026-b60a-478a-a863-22ef37382fe7",
+          "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+          "slug": "azure-horizondb-postgresql-gets-a-turbo-boost-that-would-make-kitt-jealous-2",
+          "firstPublishedDate": "2025-12-23T19:22:04.454Z",
+          "lastPublishedDate": "2025-12-23T19:22:04.454Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "4b4d3073-748c-441c-b4e0-967ceb1bd405",
+          "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+          "slug": "azure-horizondb-postgresql-gets-a-turbo-boost-that-would-make-kitt-jealous-3",
+          "firstPublishedDate": "2026-03-25T18:01:22.920Z",
+          "lastPublishedDate": "2026-03-25T18:01:22.920Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
+      "kept": {
+        "id": "4bafa909-9c6a-4ebf-b7a8-3be368027256",
+        "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
+        "slug": "azure-networking-gets-a-neon-makeover-security-reliability-and-high-availability-power-ups",
+        "firstPublishedDate": "2025-12-23T19:00:32.714Z",
+        "lastPublishedDate": "2025-12-23T19:00:32.714Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "4b7baeca-1aaa-487f-b718-fea01b203a68",
+          "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
+          "slug": "azure-networking-gets-a-neon-makeover-security-reliability-and-high-availability-power-ups-1",
+          "firstPublishedDate": "2025-12-23T19:22:33.777Z",
+          "lastPublishedDate": "2025-12-23T19:22:33.777Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "1823b147-8f1c-4134-9c63-a81bee1193cd",
+          "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
+          "slug": "azure-networking-gets-a-neon-makeover-security-reliability-and-high-availability-power-ups-2",
+          "firstPublishedDate": "2026-03-25T18:02:00.256Z",
+          "lastPublishedDate": "2026-03-25T18:02:00.256Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
+      "kept": {
+        "id": "727afdd9-0f14-4834-b703-471d1714f022",
+        "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
+        "slug": "azure-pulse-december-2025-your-monthly-dose-of-cloud-innovation-straight-from-the-neon-grid",
+        "firstPublishedDate": "2025-12-23T19:00:45.519Z",
+        "lastPublishedDate": "2025-12-23T19:00:45.519Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "12634793-a612-4e1d-bb45-fbdc3b2b2133",
+          "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
+          "slug": "azure-pulse-december-2025-your-monthly-dose-of-cloud-innovation-straight-from-the-neon-grid-1",
+          "firstPublishedDate": "2025-12-23T19:22:43.529Z",
+          "lastPublishedDate": "2025-12-23T19:22:43.529Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "edcc4490-5053-4fd7-b84d-51c4a92e852c",
+          "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
+          "slug": "azure-pulse-december-2025-your-monthly-dose-of-cloud-innovation-straight-from-the-neon-grid-2",
+          "firstPublishedDate": "2026-03-25T18:02:12.532Z",
+          "lastPublishedDate": "2026-03-25T18:02:12.532Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+      "kept": {
+        "id": "794d6145-130d-48f5-9063-ca815d689e07",
+        "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+        "slug": "azure-pulse-january-2026-your-new-year-starts-with-cloud-innovation-that-sets-the-tone-for-2026",
+        "firstPublishedDate": "2026-01-08T18:19:28.884Z",
+        "lastPublishedDate": "2026-01-08T18:19:28.884Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "f6e1680b-bb92-43b8-8fa0-c149cdc1f9e4",
+          "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+          "slug": "azure-pulse-january-2026-your-new-year-starts-with-cloud-innovation-that-sets-the-tone-for-2026-1",
+          "firstPublishedDate": "2026-01-08T18:28:33.566Z",
+          "lastPublishedDate": "2026-01-08T18:28:33.566Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "5f66dd40-e99c-46cf-b994-d4e4769dc418",
+          "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+          "slug": "azure-pulse-january-2026-your-new-year-starts-with-cloud-innovation-that-sets-the-tone-for-2026-2",
+          "firstPublishedDate": "2026-01-08T18:33:52.604Z",
+          "lastPublishedDate": "2026-01-08T18:36:51.312Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "ce99f78b-2e99-477c-b0cb-a1197463161e",
+          "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+          "slug": "azure-pulse-january-2026-your-new-year-starts-with-cloud-innovation-that-sets-the-tone-for-2026-3",
+          "firstPublishedDate": "2026-01-08T18:43:34.295Z",
+          "lastPublishedDate": "2026-01-08T18:43:34.295Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Storage Innovations: Unlocking the Future of Data in the Cloud Era",
+      "kept": {
+        "id": "765a33e0-24ef-4c24-856c-f0c975304a86",
+        "title": "Azure Storage Innovations: Unlocking the Future of Data in the Cloud Era",
+        "slug": "azure-storage-innovations-unlocking-the-future-of-data-in-the-cloud-era",
+        "firstPublishedDate": "2025-12-23T19:00:39.129Z",
+        "lastPublishedDate": "2025-12-23T19:00:39.129Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "40b8aa74-ce14-40f5-b443-78eae98995b5",
+          "title": "Azure Storage Innovations: Unlocking the Future of Data in the Cloud Era",
+          "slug": "azure-storage-innovations-unlocking-the-future-of-data-in-the-cloud-era-1",
+          "firstPublishedDate": "2025-12-23T19:22:38.511Z",
+          "lastPublishedDate": "2025-12-23T19:22:38.511Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "b3547aa6-f21c-402a-afd4-59be9d3987a2",
+          "title": "Azure Storage Innovations: Unlocking the Future of Data in the Cloud Era",
+          "slug": "azure-storage-innovations-unlocking-the-future-of-data-in-the-cloud-era-2",
+          "firstPublishedDate": "2026-03-25T18:02:06.433Z",
+          "lastPublishedDate": "2026-03-25T18:02:06.433Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+      "kept": {
+        "id": "3e221930-78e2-4018-acb8-d08db7888fe3",
+        "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+        "slug": "azure-ultra-disk-2-0-the-storage-speed-demon-that-laughs-at-iops-limits",
+        "firstPublishedDate": "2025-12-23T19:00:04.682Z",
+        "lastPublishedDate": "2025-12-23T19:00:04.682Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "561e9ba9-6809-4fa1-bea0-005812ccf35f",
+          "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+          "slug": "azure-ultra-disk-2-0-the-storage-speed-demon-that-laughs-at-iops-limits-1",
+          "firstPublishedDate": "2025-12-23T19:19:33.411Z",
+          "lastPublishedDate": "2025-12-23T19:19:33.411Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "2d322444-4ae2-4f87-b474-9ce7ac0f00b0",
+          "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+          "slug": "azure-ultra-disk-2-0-the-storage-speed-demon-that-laughs-at-iops-limits-2",
+          "firstPublishedDate": "2025-12-23T19:22:11.676Z",
+          "lastPublishedDate": "2025-12-23T19:22:11.676Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "b693a5c5-01cf-47e1-93ad-3a134969e9cd",
+          "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+          "slug": "azure-ultra-disk-2-0-the-storage-speed-demon-that-laughs-at-iops-limits-3",
+          "firstPublishedDate": "2026-03-25T18:01:31.587Z",
+          "lastPublishedDate": "2026-03-25T18:01:31.587Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+      "kept": {
+        "id": "d87a9ac7-3392-4b29-8908-66b79ffa20ec",
+        "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+        "slug": "azure-virtual-desktop-evolves-ubuntu-session-hosts-and-cross-platform-flexibility-signal-a-new-era",
+        "firstPublishedDate": "2026-01-08T18:19:06.537Z",
+        "lastPublishedDate": "2026-01-08T18:19:06.537Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "aba53310-dcfe-4516-9d26-81b658123770",
+          "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+          "slug": "azure-virtual-desktop-evolves-ubuntu-session-hosts-and-cross-platform-flexibility-signal-a-new-era-1",
+          "firstPublishedDate": "2026-01-08T18:28:11.967Z",
+          "lastPublishedDate": "2026-01-08T18:28:11.967Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "abd8f7ac-ec64-4d9a-b12b-51eb404683a7",
+          "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+          "slug": "azure-virtual-desktop-evolves-ubuntu-session-hosts-and-cross-platform-flexibility-signal-a-new-era-2",
+          "firstPublishedDate": "2026-01-08T18:33:29.918Z",
+          "lastPublishedDate": "2026-01-08T18:33:29.918Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "5790863b-0d07-41b1-b348-fe0b69b08afd",
+          "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+          "slug": "azure-virtual-desktop-evolves-ubuntu-session-hosts-and-cross-platform-flexibility-signal-a-new-era-3",
+          "firstPublishedDate": "2026-01-08T18:43:09.164Z",
+          "lastPublishedDate": "2026-01-08T18:43:09.164Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+      "kept": {
+        "id": "a0e738e6-3cdc-4fbe-99bb-91bf122bcb98",
+        "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+        "slug": "claude-opus-4-5-arrives-in-microsoft-foundry-anthropic-s-most-capable-model-joins-the-azure-ai-arse",
+        "firstPublishedDate": "2026-01-08T18:18:59.384Z",
+        "lastPublishedDate": "2026-01-08T18:18:59.384Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "0b1a7e71-33b4-4ef3-a1d1-3e24a4d495d6",
+          "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+          "slug": "claude-opus-4-5-arrives-in-microsoft-foundry-anthropic-s-most-capable-model-joins-the-azure-ai-arse-1",
+          "firstPublishedDate": "2026-01-08T18:28:05.732Z",
+          "lastPublishedDate": "2026-01-08T18:28:05.732Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "dc65041a-3ce8-474f-a89e-8267b2d2188d",
+          "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+          "slug": "claude-opus-4-5-arrives-in-microsoft-foundry-anthropic-s-most-capable-model-joins-the-azure-ai-arse-2",
+          "firstPublishedDate": "2026-01-08T18:33:23.449Z",
+          "lastPublishedDate": "2026-01-08T18:33:23.449Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "4828d622-74e7-4412-ad8f-a9e615ddc7cd",
+          "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+          "slug": "claude-opus-4-5-arrives-in-microsoft-foundry-anthropic-s-most-capable-model-joins-the-azure-ai-arse-3",
+          "firstPublishedDate": "2026-01-08T18:43:00.159Z",
+          "lastPublishedDate": "2026-01-08T18:43:00.159Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+      "kept": {
+        "id": "11562197-b76f-41e9-9558-3dbaffc84d68",
+        "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+        "slug": "cloud-resiliency-reimagined-how-azure-essentials-and-shared-responsibility-build-bulletproof-archit",
+        "firstPublishedDate": "2026-01-08T18:19:16.105Z",
+        "lastPublishedDate": "2026-01-08T18:19:16.105Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "06af5f98-a2a7-4fd3-a405-0d978a0975f2",
+          "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+          "slug": "cloud-resiliency-reimagined-how-azure-essentials-and-shared-responsibility-build-bulletproof-archit-1",
+          "firstPublishedDate": "2026-01-08T18:28:21.327Z",
+          "lastPublishedDate": "2026-01-08T18:28:21.327Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "65e37d31-9edd-4bce-8e24-5ab3712939c8",
+          "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+          "slug": "cloud-resiliency-reimagined-how-azure-essentials-and-shared-responsibility-build-bulletproof-archit-2",
+          "firstPublishedDate": "2026-01-08T18:33:39.539Z",
+          "lastPublishedDate": "2026-01-08T18:33:39.539Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "d3943d7e-211c-4e3e-9df5-341fb40be7c6",
+          "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+          "slug": "cloud-resiliency-reimagined-how-azure-essentials-and-shared-responsibility-build-bulletproof-archit-3",
+          "firstPublishedDate": "2026-01-08T18:43:21.253Z",
+          "lastPublishedDate": "2026-01-08T18:43:21.253Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
+      "kept": {
+        "id": "7a3d42f1-be63-41fe-a1b9-fa072a081551",
+        "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
+        "slug": "foundry-iq-the-ai-brain-that-actually-understands-your-enterprise-data",
+        "firstPublishedDate": "2025-12-23T19:00:23.259Z",
+        "lastPublishedDate": "2025-12-23T19:00:23.259Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "b64d57dd-d545-497f-8689-0f881d93009e",
+          "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
+          "slug": "foundry-iq-the-ai-brain-that-actually-understands-your-enterprise-data-1",
+          "firstPublishedDate": "2025-12-23T19:22:26.268Z",
+          "lastPublishedDate": "2025-12-23T19:22:26.268Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "141719fd-ad69-4557-b77f-b7a113e55b21",
+          "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
+          "slug": "foundry-iq-the-ai-brain-that-actually-understands-your-enterprise-data-2",
+          "firstPublishedDate": "2026-03-25T18:01:50.712Z",
+          "lastPublishedDate": "2026-03-25T18:01:50.712Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "GitHub Advanced Security Meets Defender: The Ultimate DevSecOps Power Couple of 2025",
+      "kept": {
+        "id": "9423105a-96ed-4f3e-a554-9d67f43ea304",
+        "title": "GitHub Advanced Security Meets Defender: The Ultimate DevSecOps Power Couple of 2025",
+        "slug": "github-advanced-security-meets-defender-the-ultimate-devsecops-power-couple-of-2025",
+        "firstPublishedDate": "2025-12-23T19:00:29.560Z",
+        "lastPublishedDate": "2025-12-23T19:00:29.560Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "324e747e-d1a3-45cc-a946-08a0958b571a",
+          "title": "GitHub Advanced Security Meets Defender: The Ultimate DevSecOps Power Couple of 2025",
+          "slug": "github-advanced-security-meets-defender-the-ultimate-devsecops-power-couple-of-2025-1",
+          "firstPublishedDate": "2025-12-23T19:22:31.359Z",
+          "lastPublishedDate": "2025-12-23T19:22:31.359Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "89d63852-eb5b-446e-b1a4-e9b88b92a855",
+          "title": "GitHub Advanced Security Meets Defender: The Ultimate DevSecOps Power Couple of 2025",
+          "slug": "github-advanced-security-meets-defender-the-ultimate-devsecops-power-couple-of-2025-2",
+          "firstPublishedDate": "2026-03-25T18:01:57.461Z",
+          "lastPublishedDate": "2026-03-25T18:01:57.461Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+      "kept": {
+        "id": "009725cb-a238-46fe-9a80-a123260b6d80",
+        "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+        "slug": "github-universe-2025-where-developer-innovation-took-center-stage-and-the-future-got-written-in-cod",
+        "firstPublishedDate": "2026-01-08T18:19:22.423Z",
+        "lastPublishedDate": "2026-01-08T18:19:22.423Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "544001e9-7b23-49ce-bd20-264b6e2d63cd",
+          "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+          "slug": "github-universe-2025-where-developer-innovation-took-center-stage-and-the-future-got-written-in-cod-1",
+          "firstPublishedDate": "2026-01-08T18:28:27.572Z",
+          "lastPublishedDate": "2026-01-08T18:28:27.572Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "3c2e52b8-3ef4-4587-9098-3b68e0cb15d4",
+          "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+          "slug": "github-universe-2025-where-developer-innovation-took-center-stage-and-the-future-got-written-in-cod-2",
+          "firstPublishedDate": "2026-01-08T18:33:45.869Z",
+          "lastPublishedDate": "2026-01-08T18:33:45.869Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "61e14136-6664-44a4-a91d-2a1c264dc332",
+          "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+          "slug": "github-universe-2025-where-developer-innovation-took-center-stage-and-the-future-got-written-in-cod-3",
+          "firstPublishedDate": "2026-01-08T18:43:27.949Z",
+          "lastPublishedDate": "2026-01-08T18:43:27.949Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+      "kept": {
+        "id": "0d90b944-acd1-4a31-9991-102699b375b6",
+        "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+        "slug": "gpt-5-2-hits-the-neon-grid-microsoft-foundry-s-new-ai-powerhouse-is-totally-radical",
+        "firstPublishedDate": "2025-12-23T18:59:46.340Z",
+        "lastPublishedDate": "2025-12-23T18:59:46.340Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "33e12525-89ff-4c7c-9dda-52c9cf045cfb",
+          "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+          "slug": "gpt-5-2-hits-the-neon-grid-microsoft-foundry-s-new-ai-powerhouse-is-totally-radical-1",
+          "firstPublishedDate": "2025-12-23T19:19:18.855Z",
+          "lastPublishedDate": "2025-12-23T19:19:18.855Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "1dd3e2ea-1f88-4ed5-a82d-4c942524c7be",
+          "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+          "slug": "gpt-5-2-hits-the-neon-grid-microsoft-foundry-s-new-ai-powerhouse-is-totally-radical-2",
+          "firstPublishedDate": "2025-12-23T19:21:57.377Z",
+          "lastPublishedDate": "2025-12-23T19:21:57.377Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "4a7232e7-dd32-4ae7-a957-c0c399998e82",
+          "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+          "slug": "gpt-5-2-hits-the-neon-grid-microsoft-foundry-s-new-ai-powerhouse-is-totally-radical-3",
+          "firstPublishedDate": "2026-03-25T18:01:13.518Z",
+          "lastPublishedDate": "2026-03-25T18:01:13.518Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+      "kept": {
+        "id": "ee75f4c9-46bc-4187-826e-91ac9b7fb6fa",
+        "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+        "slug": "infinite-scale-the-architecture-behind-azure-s-ai-superfactory-is-absolutely-mind-blowing",
+        "firstPublishedDate": "2026-01-08T18:18:43.305Z",
+        "lastPublishedDate": "2026-01-08T18:18:43.305Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "68b86d8a-7c99-4179-a286-7cd94b0ab3dc",
+          "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+          "slug": "infinite-scale-the-architecture-behind-azure-s-ai-superfactory-is-absolutely-mind-blowing-1",
+          "firstPublishedDate": "2026-01-08T18:27:50.252Z",
+          "lastPublishedDate": "2026-01-08T18:27:50.252Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "766be680-5db4-497f-aca9-399ae0ed7c01",
+          "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+          "slug": "infinite-scale-the-architecture-behind-azure-s-ai-superfactory-is-absolutely-mind-blowing-2",
+          "firstPublishedDate": "2026-01-08T18:33:07.096Z",
+          "lastPublishedDate": "2026-01-08T18:33:07.096Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "bb3c7bbf-6951-430b-8f0a-e4296c266402",
+          "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+          "slug": "infinite-scale-the-architecture-behind-azure-s-ai-superfactory-is-absolutely-mind-blowing-3",
+          "firstPublishedDate": "2026-01-08T18:42:42.062Z",
+          "lastPublishedDate": "2026-01-08T18:42:42.062Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+      "kept": {
+        "id": "27d1d729-14ce-4aa3-9858-19d2a306718b",
+        "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+        "slug": "log-analytics-meets-microsoft-fabric-when-observability-data-flows-into-your-analytics-playground",
+        "firstPublishedDate": "2026-01-08T18:19:09.678Z",
+        "lastPublishedDate": "2026-01-08T18:19:09.678Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "12b6de81-fa6b-46d3-b082-224cc2bbf32a",
+          "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+          "slug": "log-analytics-meets-microsoft-fabric-when-observability-data-flows-into-your-analytics-playground-1",
+          "firstPublishedDate": "2026-01-08T18:28:15.095Z",
+          "lastPublishedDate": "2026-01-08T18:28:15.095Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "138d49bd-8203-4b5c-a4b7-f9586ba90155",
+          "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+          "slug": "log-analytics-meets-microsoft-fabric-when-observability-data-flows-into-your-analytics-playground-2",
+          "firstPublishedDate": "2026-01-08T18:33:33Z",
+          "lastPublishedDate": "2026-01-08T18:33:33Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "d17c8dd1-9916-46c8-8ff6-c449e7097e37",
+          "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+          "slug": "log-analytics-meets-microsoft-fabric-when-observability-data-flows-into-your-analytics-playground-3",
+          "firstPublishedDate": "2026-01-08T18:43:13.135Z",
+          "lastPublishedDate": "2026-01-08T18:43:13.135Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+      "kept": {
+        "id": "f30f6691-46a0-459e-b2ad-2ea08a4976c0",
+        "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+        "slug": "microsoft-fabric-iq-your-data-estate-just-got-a-brain-upgrade-from-the-future",
+        "firstPublishedDate": "2025-12-23T19:00:01.802Z",
+        "lastPublishedDate": "2025-12-23T19:00:01.802Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "10fc2418-2b19-47ca-8804-58ff397bef9d",
+          "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+          "slug": "microsoft-fabric-iq-your-data-estate-just-got-a-brain-upgrade-from-the-future-1",
+          "firstPublishedDate": "2025-12-23T19:19:31.004Z",
+          "lastPublishedDate": "2025-12-23T19:19:31.004Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "d032e56b-4893-48c0-a52c-441a7e7be702",
+          "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+          "slug": "microsoft-fabric-iq-your-data-estate-just-got-a-brain-upgrade-from-the-future-2",
+          "firstPublishedDate": "2025-12-23T19:22:09.272Z",
+          "lastPublishedDate": "2025-12-23T19:22:09.272Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "88ae84ad-812e-473b-9cb8-020c552ef744",
+          "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+          "slug": "microsoft-fabric-iq-your-data-estate-just-got-a-brain-upgrade-from-the-future-3",
+          "firstPublishedDate": "2026-03-25T18:01:28.623Z",
+          "lastPublishedDate": "2026-03-25T18:01:28.623Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+      "kept": {
+        "id": "fa3a28e2-f6d7-4ca7-bf73-b286701c65de",
+        "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+        "slug": "microsoft-ignite-2025-the-synthwave-symphony-of-cloud-innovation-that-rocked-the-tech-world",
+        "firstPublishedDate": "2025-12-23T18:59:49.380Z",
+        "lastPublishedDate": "2025-12-23T18:59:49.380Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "7afbfb85-f5ca-496e-8775-367925b16937",
+          "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+          "slug": "microsoft-ignite-2025-the-synthwave-symphony-of-cloud-innovation-that-rocked-the-tech-world-1",
+          "firstPublishedDate": "2025-12-23T19:19:21.383Z",
+          "lastPublishedDate": "2025-12-23T19:19:21.383Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "9ce9dcb5-ee8c-4d4e-9294-624d9eb06ca5",
+          "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+          "slug": "microsoft-ignite-2025-the-synthwave-symphony-of-cloud-innovation-that-rocked-the-tech-world-2",
+          "firstPublishedDate": "2025-12-23T19:21:59.734Z",
+          "lastPublishedDate": "2025-12-23T19:21:59.734Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "016f46d9-f761-40a7-bd89-7b815ca17571",
+          "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+          "slug": "microsoft-ignite-2025-the-synthwave-symphony-of-cloud-innovation-that-rocked-the-tech-world-3",
+          "firstPublishedDate": "2026-03-25T18:01:16.568Z",
+          "lastPublishedDate": "2026-03-25T18:01:16.568Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Microsoft Named Gartner Magic Quadrant Leader: When the Analysts Say You're Totally Rad",
+      "kept": {
+        "id": "f7e2dd0d-194f-454e-982f-ee13a18312b8",
+        "title": "Microsoft Named Gartner Magic Quadrant Leader: When the Analysts Say You're Totally Rad",
+        "slug": "microsoft-named-gartner-magic-quadrant-leader-when-the-analysts-say-you-re-totally-rad",
+        "firstPublishedDate": "2025-12-23T19:00:42.363Z",
+        "lastPublishedDate": "2025-12-23T19:00:42.363Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "c9f68442-b6b2-4016-8c5e-9a0aed3998cf",
+          "title": "Microsoft Named Gartner Magic Quadrant Leader: When the Analysts Say You're Totally Rad",
+          "slug": "microsoft-named-gartner-magic-quadrant-leader-when-the-analysts-say-you-re-totally-rad-1",
+          "firstPublishedDate": "2025-12-23T19:22:40.843Z",
+          "lastPublishedDate": "2025-12-23T19:22:40.843Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "d560ec67-d5db-47a8-91be-202134f9599f",
+          "title": "Microsoft Named Gartner Magic Quadrant Leader: When the Analysts Say You're Totally Rad",
+          "slug": "microsoft-named-gartner-magic-quadrant-leader-when-the-analysts-say-you-re-totally-rad-2",
+          "firstPublishedDate": "2026-03-25T18:02:09.585Z",
+          "lastPublishedDate": "2026-03-25T18:02:09.585Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
+      "kept": {
+        "id": "8a56c5a4-263e-4914-892a-337c4373f028",
+        "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
+        "slug": "microsoft-sovereign-cloud-when-your-data-needs-diplomatic-immunity-and-zero-compromise",
+        "firstPublishedDate": "2025-12-23T19:00:20.284Z",
+        "lastPublishedDate": "2025-12-23T19:00:20.284Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "b55d9ece-eb70-4030-a95d-426328675e58",
+          "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
+          "slug": "microsoft-sovereign-cloud-when-your-data-needs-diplomatic-immunity-and-zero-compromise-1",
+          "firstPublishedDate": "2025-12-23T19:22:23.762Z",
+          "lastPublishedDate": "2025-12-23T19:22:23.762Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "26042b7e-7165-4b4e-86bd-976b92a73d9a",
+          "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
+          "slug": "microsoft-sovereign-cloud-when-your-data-needs-diplomatic-immunity-and-zero-compromise-2",
+          "firstPublishedDate": "2026-03-25T18:01:47.594Z",
+          "lastPublishedDate": "2026-03-25T18:01:47.594Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
+      "kept": {
+        "id": "b349c2f2-c429-4371-8ded-02fecc1ca93b",
+        "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
+        "slug": "mistral-large-3-storms-into-microsoft-foundry-the-open-weight-champion-has-entered-the-ring",
+        "firstPublishedDate": "2025-12-23T19:00:13.892Z",
+        "lastPublishedDate": "2025-12-23T19:00:13.892Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "58e9724b-f44d-4e84-bc76-bf3b081351f6",
+          "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
+          "slug": "mistral-large-3-storms-into-microsoft-foundry-the-open-weight-champion-has-entered-the-ring-1",
+          "firstPublishedDate": "2025-12-23T19:22:18.860Z",
+          "lastPublishedDate": "2025-12-23T19:22:18.860Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "0228272e-c687-4209-89ff-ee3faf566796",
+          "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
+          "slug": "mistral-large-3-storms-into-microsoft-foundry-the-open-weight-champion-has-entered-the-ring-2",
+          "firstPublishedDate": "2026-03-25T18:01:40.363Z",
+          "lastPublishedDate": "2026-03-25T18:01:40.363Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+      "kept": {
+        "id": "efa7db91-5196-474d-8f9b-aecb30bd58f8",
+        "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+        "slug": "nvidia-rubin-meets-azure-microsoft-s-strategic-ai-datacenter-planning-sets-the-stage-for-next-gen-g",
+        "firstPublishedDate": "2026-01-08T18:18:46.682Z",
+        "lastPublishedDate": "2026-01-08T18:18:46.682Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "0fb8ba86-a3ec-4583-a3db-6166b2a46336",
+          "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+          "slug": "nvidia-rubin-meets-azure-microsoft-s-strategic-ai-datacenter-planning-sets-the-stage-for-next-gen-g-1",
+          "firstPublishedDate": "2026-01-08T18:27:53.406Z",
+          "lastPublishedDate": "2026-01-08T18:27:53.406Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "15c122e5-f3da-4e6a-ace8-6a95fae89966",
+          "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+          "slug": "nvidia-rubin-meets-azure-microsoft-s-strategic-ai-datacenter-planning-sets-the-stage-for-next-gen-g-2",
+          "firstPublishedDate": "2026-01-08T18:33:10.180Z",
+          "lastPublishedDate": "2026-01-08T18:33:10.180Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "a29c433c-edb7-4445-be39-0b5fd2aa60e0",
+          "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+          "slug": "nvidia-rubin-meets-azure-microsoft-s-strategic-ai-datacenter-planning-sets-the-stage-for-next-gen-g-3",
+          "firstPublishedDate": "2026-01-08T18:42:46Z",
+          "lastPublishedDate": "2026-01-08T18:42:46Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+      "kept": {
+        "id": "f4b7971c-c9df-4b9f-9a9d-c61f247af86a",
+        "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+        "slug": "oracle-database-azure-expands-to-west-europe-the-cloud-partnership-that-keeps-getting-bigger",
+        "firstPublishedDate": "2026-01-08T18:18:53.011Z",
+        "lastPublishedDate": "2026-01-08T18:18:53.011Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "4fe408cb-5cb9-41ea-9a71-5a934b3e38d1",
+          "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+          "slug": "oracle-database-azure-expands-to-west-europe-the-cloud-partnership-that-keeps-getting-bigger-1",
+          "firstPublishedDate": "2026-01-08T18:27:59.559Z",
+          "lastPublishedDate": "2026-01-08T18:27:59.559Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "e5fa2f72-3ca7-48b3-ac41-7df82d7584c8",
+          "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+          "slug": "oracle-database-azure-expands-to-west-europe-the-cloud-partnership-that-keeps-getting-bigger-2",
+          "firstPublishedDate": "2026-01-08T18:33:16.732Z",
+          "lastPublishedDate": "2026-01-08T18:33:16.732Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "4c28cb67-4dd0-4adf-a259-aa810fb90c13",
+          "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+          "slug": "oracle-database-azure-expands-to-west-europe-the-cloud-partnership-that-keeps-getting-bigger-3",
+          "firstPublishedDate": "2026-01-08T18:42:52.624Z",
+          "lastPublishedDate": "2026-01-08T18:42:52.624Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+      "kept": {
+        "id": "074421c9-471f-4e9c-9db3-a88ea3c61dff",
+        "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+        "slug": "performance-plus-for-azure-disk-storage-when-your-storage-needs-to-be-as-fast-as-your-ambitions",
+        "firstPublishedDate": "2026-01-08T18:19:19.244Z",
+        "lastPublishedDate": "2026-01-08T18:19:19.244Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "a6ec3eb9-3bed-4620-a9dd-2ba375a00877",
+          "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+          "slug": "performance-plus-for-azure-disk-storage-when-your-storage-needs-to-be-as-fast-as-your-ambitions-1",
+          "firstPublishedDate": "2026-01-08T18:28:24.458Z",
+          "lastPublishedDate": "2026-01-08T18:28:24.458Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "96efb01b-904a-4b8f-972e-0cd6f3745f04",
+          "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+          "slug": "performance-plus-for-azure-disk-storage-when-your-storage-needs-to-be-as-fast-as-your-ambitions-2",
+          "firstPublishedDate": "2026-01-08T18:33:42.779Z",
+          "lastPublishedDate": "2026-01-08T18:33:42.779Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "f638a863-c6c6-414f-a2cb-9ec7dc38d358",
+          "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+          "slug": "performance-plus-for-azure-disk-storage-when-your-storage-needs-to-be-as-fast-as-your-ambitions-3",
+          "firstPublishedDate": "2026-01-08T18:43:24.829Z",
+          "lastPublishedDate": "2026-01-08T18:43:24.829Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+      "kept": {
+        "id": "03d9274c-c6ac-4799-a5a9-6077931304d6",
+        "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+        "slug": "securing-our-future-microsoft-s-november-2025-progress-report-shows-security-transformation-at-unpr",
+        "firstPublishedDate": "2026-01-08T18:18:56.224Z",
+        "lastPublishedDate": "2026-01-08T18:18:56.224Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "cfe83a06-b30f-4c20-9d29-32905f9de7b4",
+          "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+          "slug": "securing-our-future-microsoft-s-november-2025-progress-report-shows-security-transformation-at-unpr-1",
+          "firstPublishedDate": "2026-01-08T18:28:02.653Z",
+          "lastPublishedDate": "2026-01-08T18:28:02.653Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "5989f85d-3434-4f3e-b86b-de7bfc1d1a93",
+          "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+          "slug": "securing-our-future-microsoft-s-november-2025-progress-report-shows-security-transformation-at-unpr-2",
+          "firstPublishedDate": "2026-01-08T18:33:19.856Z",
+          "lastPublishedDate": "2026-01-08T18:33:19.856Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "e1ee2fd2-fab1-4dd8-bc58-d8ef11a9d9c0",
+          "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+          "slug": "securing-our-future-microsoft-s-november-2025-progress-report-shows-security-transformation-at-unpr-3",
+          "firstPublishedDate": "2026-01-08T18:42:55.994Z",
+          "lastPublishedDate": "2026-01-08T18:42:55.994Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "SQL Server 2025: The Classic Database Gets an AI Makeover That Slaps",
+      "kept": {
+        "id": "dbe4300f-5447-4904-a5b6-4be63a7cf6eb",
+        "title": "SQL Server 2025: The Classic Database Gets an AI Makeover That Slaps",
+        "slug": "sql-server-2025-the-classic-database-gets-an-ai-makeover-that-slaps",
+        "firstPublishedDate": "2025-12-23T19:00:07.682Z",
+        "lastPublishedDate": "2025-12-23T19:00:07.682Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "8659fc71-adaf-464a-af79-a70b0bf42448",
+          "title": "SQL Server 2025: The Classic Database Gets an AI Makeover That Slaps",
+          "slug": "sql-server-2025-the-classic-database-gets-an-ai-makeover-that-slaps-1",
+          "firstPublishedDate": "2025-12-23T19:22:14.155Z",
+          "lastPublishedDate": "2025-12-23T19:22:14.155Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "27be8233-6915-475a-9d69-e782cdc83f6c",
+          "title": "SQL Server 2025: The Classic Database Gets an AI Makeover That Slaps",
+          "slug": "sql-server-2025-the-classic-database-gets-an-ai-makeover-that-slaps-2",
+          "firstPublishedDate": "2026-03-25T18:01:34.400Z",
+          "lastPublishedDate": "2026-03-25T18:01:34.400Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    },
+    {
+      "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+      "kept": {
+        "id": "55308cb8-ab98-4377-aef6-f083ee40ec05",
+        "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+        "slug": "uipath-meets-azure-ai-foundry-intelligent-agents-transform-healthcare-workflows-into-reality",
+        "firstPublishedDate": "2026-01-08T18:19:12.904Z",
+        "lastPublishedDate": "2026-01-08T18:19:12.904Z",
+        "hasMedia": false,
+        "media": {
+          "displayed": true,
+          "custom": false
+        }
+      },
+      "deletedDuplicates": [
+        {
+          "id": "3bb91a6e-8786-4f1f-a9a5-0bc647ecb1e8",
+          "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+          "slug": "uipath-meets-azure-ai-foundry-intelligent-agents-transform-healthcare-workflows-into-reality-1",
+          "firstPublishedDate": "2026-01-08T18:28:18.366Z",
+          "lastPublishedDate": "2026-01-08T18:28:18.366Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "df89cf28-51cd-4505-a072-5e46aaea4420",
+          "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+          "slug": "uipath-meets-azure-ai-foundry-intelligent-agents-transform-healthcare-workflows-into-reality-2",
+          "firstPublishedDate": "2026-01-08T18:33:36.352Z",
+          "lastPublishedDate": "2026-01-08T18:33:36.352Z",
+          "hasMedia": false,
+          "media": {
+            "displayed": true,
+            "custom": false
+          }
+        },
+        {
+          "id": "a106c218-d695-441d-92c1-9b71a920fc85",
+          "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+          "slug": "uipath-meets-azure-ai-foundry-intelligent-agents-transform-healthcare-workflows-into-reality-3",
+          "firstPublishedDate": "2026-01-08T18:43:17.679Z",
+          "lastPublishedDate": "2026-01-08T18:43:17.679Z",
+          "hasMedia": true,
+          "media": {
+            "wixMedia": {
+              "image": {
+                "id": "32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "url": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+                "height": 1024,
+                "width": 1024,
+                "filename": "d4c31e07-3685-4c79-acd6-3fcd3e9a3fe3.png"
+              }
+            },
+            "displayed": true,
+            "custom": false
+          }
+        }
+      ],
+      "keptCoverUpdated": true
+    }
+  ],
+  "deletePlannedCount": 104,
+  "coverUpdateResults": [
+    {
+      "id": "9b74863a-4a87-40fb-9598-ac0b829dbc1e",
+      "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+      "slug": "agent-hq-arrives-github-s-vision-for-ai-agents-that-work-any-way-you-work",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "78f90861-251e-49e6-889a-bc6c86281ad7",
+      "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+      "slug": "agent-to-agent-protocol-arrives-in-net-building-the-neural-pathways-of-multi-agent-ai-systems",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "ef214c42-1888-4696-9b75-0d623b3fe64c",
+      "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+      "slug": "anthropic-claude-crashes-the-azure-party-the-ultimate-ai-tag-team-has-arrived",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "b453d572-11c3-44e1-9f6f-6e311e5081bb",
+      "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
+      "slug": "azure-boost-microsoft-s-secret-sauce-for-virtualization-performance-is-totally-gnarly",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "63b11af9-1ba3-44fd-b874-4ed620b03f72",
+      "title": "Azure Cobalt 200: Microsoft's ARM Processor Flexes Its Muscles Like an 80s Action Hero",
+      "slug": "azure-cobalt-200-microsoft-s-arm-processor-flexes-its-muscles-like-an-80s-action-hero",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "02915460-263b-418c-8682-f7761eba6f76",
+      "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+      "slug": "azure-container-apps-networking-gets-a-major-upgrade-consumption-environments-just-got-seriously-po",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "47180d52-2cdd-49e5-9c58-b1cf339f5b83",
+      "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+      "slug": "azure-copilot-agents-your-cloud-operations-just-got-a-rad-ai-pit-crew",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "a922414f-6429-4dd7-ab49-38db444d1c72",
+      "title": "Azure DocumentDB: The Open-Source NoSQL Champion Goes Multi-Cloud and AI-Ready",
+      "slug": "azure-documentdb-the-open-source-nosql-champion-goes-multi-cloud-and-ai-ready",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "0fd5483d-a9c3-4c82-a610-02bf67e700ef",
+      "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+      "slug": "azure-horizondb-postgresql-gets-a-turbo-boost-that-would-make-kitt-jealous",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4bafa909-9c6a-4ebf-b7a8-3be368027256",
+      "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
+      "slug": "azure-networking-gets-a-neon-makeover-security-reliability-and-high-availability-power-ups",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "727afdd9-0f14-4834-b703-471d1714f022",
+      "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
+      "slug": "azure-pulse-december-2025-your-monthly-dose-of-cloud-innovation-straight-from-the-neon-grid",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "794d6145-130d-48f5-9063-ca815d689e07",
+      "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+      "slug": "azure-pulse-january-2026-your-new-year-starts-with-cloud-innovation-that-sets-the-tone-for-2026",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "765a33e0-24ef-4c24-856c-f0c975304a86",
+      "title": "Azure Storage Innovations: Unlocking the Future of Data in the Cloud Era",
+      "slug": "azure-storage-innovations-unlocking-the-future-of-data-in-the-cloud-era",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "3e221930-78e2-4018-acb8-d08db7888fe3",
+      "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+      "slug": "azure-ultra-disk-2-0-the-storage-speed-demon-that-laughs-at-iops-limits",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "d87a9ac7-3392-4b29-8908-66b79ffa20ec",
+      "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+      "slug": "azure-virtual-desktop-evolves-ubuntu-session-hosts-and-cross-platform-flexibility-signal-a-new-era",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "a0e738e6-3cdc-4fbe-99bb-91bf122bcb98",
+      "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+      "slug": "claude-opus-4-5-arrives-in-microsoft-foundry-anthropic-s-most-capable-model-joins-the-azure-ai-arse",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "11562197-b76f-41e9-9558-3dbaffc84d68",
+      "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+      "slug": "cloud-resiliency-reimagined-how-azure-essentials-and-shared-responsibility-build-bulletproof-archit",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "7a3d42f1-be63-41fe-a1b9-fa072a081551",
+      "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
+      "slug": "foundry-iq-the-ai-brain-that-actually-understands-your-enterprise-data",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "9423105a-96ed-4f3e-a554-9d67f43ea304",
+      "title": "GitHub Advanced Security Meets Defender: The Ultimate DevSecOps Power Couple of 2025",
+      "slug": "github-advanced-security-meets-defender-the-ultimate-devsecops-power-couple-of-2025",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "009725cb-a238-46fe-9a80-a123260b6d80",
+      "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+      "slug": "github-universe-2025-where-developer-innovation-took-center-stage-and-the-future-got-written-in-cod",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "0d90b944-acd1-4a31-9991-102699b375b6",
+      "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+      "slug": "gpt-5-2-hits-the-neon-grid-microsoft-foundry-s-new-ai-powerhouse-is-totally-radical",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "ee75f4c9-46bc-4187-826e-91ac9b7fb6fa",
+      "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+      "slug": "infinite-scale-the-architecture-behind-azure-s-ai-superfactory-is-absolutely-mind-blowing",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "27d1d729-14ce-4aa3-9858-19d2a306718b",
+      "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+      "slug": "log-analytics-meets-microsoft-fabric-when-observability-data-flows-into-your-analytics-playground",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "f30f6691-46a0-459e-b2ad-2ea08a4976c0",
+      "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+      "slug": "microsoft-fabric-iq-your-data-estate-just-got-a-brain-upgrade-from-the-future",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "fa3a28e2-f6d7-4ca7-bf73-b286701c65de",
+      "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+      "slug": "microsoft-ignite-2025-the-synthwave-symphony-of-cloud-innovation-that-rocked-the-tech-world",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "f7e2dd0d-194f-454e-982f-ee13a18312b8",
+      "title": "Microsoft Named Gartner Magic Quadrant Leader: When the Analysts Say You're Totally Rad",
+      "slug": "microsoft-named-gartner-magic-quadrant-leader-when-the-analysts-say-you-re-totally-rad",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "8a56c5a4-263e-4914-892a-337c4373f028",
+      "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
+      "slug": "microsoft-sovereign-cloud-when-your-data-needs-diplomatic-immunity-and-zero-compromise",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "b349c2f2-c429-4371-8ded-02fecc1ca93b",
+      "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
+      "slug": "mistral-large-3-storms-into-microsoft-foundry-the-open-weight-champion-has-entered-the-ring",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "efa7db91-5196-474d-8f9b-aecb30bd58f8",
+      "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+      "slug": "nvidia-rubin-meets-azure-microsoft-s-strategic-ai-datacenter-planning-sets-the-stage-for-next-gen-g",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "f4b7971c-c9df-4b9f-9a9d-c61f247af86a",
+      "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+      "slug": "oracle-database-azure-expands-to-west-europe-the-cloud-partnership-that-keeps-getting-bigger",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "074421c9-471f-4e9c-9db3-a88ea3c61dff",
+      "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+      "slug": "performance-plus-for-azure-disk-storage-when-your-storage-needs-to-be-as-fast-as-your-ambitions",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "03d9274c-c6ac-4799-a5a9-6077931304d6",
+      "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+      "slug": "securing-our-future-microsoft-s-november-2025-progress-report-shows-security-transformation-at-unpr",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "dbe4300f-5447-4904-a5b6-4be63a7cf6eb",
+      "title": "SQL Server 2025: The Classic Database Gets an AI Makeover That Slaps",
+      "slug": "sql-server-2025-the-classic-database-gets-an-ai-makeover-that-slaps",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "55308cb8-ab98-4377-aef6-f083ee40ec05",
+      "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+      "slug": "uipath-meets-azure-ai-foundry-intelligent-agents-transform-healthcare-workflows-into-reality",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    }
+  ],
+  "deleteResults": [
+    {
+      "id": "c9405569-5cbb-42e8-b2ee-5bcd0a662d8c",
+      "title": "A Decade of Open Innovation: Microsoft and Red Hat's Partnership Proves Rivals Can Be Radical Allies",
+      "slug": "a-decade-of-open-innovation-microsoft-and-red-hat-s-partnership-proves-rivals-can-be-radical-allies-1",
+      "firstPublishedDate": "2025-12-23T19:22:36.078Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "87b89367-2f4f-4a5e-a706-001a67a9a9da",
+      "title": "A Decade of Open Innovation: Microsoft and Red Hat's Partnership Proves Rivals Can Be Radical Allies",
+      "slug": "a-decade-of-open-innovation-microsoft-and-red-hat-s-partnership-proves-rivals-can-be-radical-allies-2",
+      "firstPublishedDate": "2026-03-25T18:02:03.128Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "bc4cab18-ab13-41c5-9ecd-fc0b7f1d6266",
+      "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+      "slug": "agent-hq-arrives-github-s-vision-for-ai-agents-that-work-any-way-you-work-1",
+      "firstPublishedDate": "2026-01-08T18:28:30.560Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "3bba5b8e-ae6d-4f10-9945-7fd6cd61d9ad",
+      "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+      "slug": "agent-hq-arrives-github-s-vision-for-ai-agents-that-work-any-way-you-work-2",
+      "firstPublishedDate": "2026-01-08T18:33:49.001Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "945cd50b-e8e9-458b-a206-7a34c203f260",
+      "title": "Agent HQ Arrives: GitHub's Vision for AI Agents That Work Any Way You Work",
+      "slug": "agent-hq-arrives-github-s-vision-for-ai-agents-that-work-any-way-you-work-3",
+      "firstPublishedDate": "2026-01-08T18:43:31.096Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "3f7e7e6a-ef5d-4c3d-a6ef-cb7ce8e7123b",
+      "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+      "slug": "agent-to-agent-protocol-arrives-in-net-building-the-neural-pathways-of-multi-agent-ai-systems-1",
+      "firstPublishedDate": "2026-01-08T18:27:56.452Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "48ea402f-6e8f-4aed-93c1-78b20fca705c",
+      "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+      "slug": "agent-to-agent-protocol-arrives-in-net-building-the-neural-pathways-of-multi-agent-ai-systems-2",
+      "firstPublishedDate": "2026-01-08T18:33:13.386Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "e2c5a5db-ca2e-450a-9d15-d1f15f9c6dea",
+      "title": "Agent-to-Agent Protocol Arrives in .NET: Building the Neural Pathways of Multi-Agent AI Systems",
+      "slug": "agent-to-agent-protocol-arrives-in-net-building-the-neural-pathways-of-multi-agent-ai-systems-3",
+      "firstPublishedDate": "2026-01-08T18:42:49.308Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "693ea183-e577-4353-afa5-0a58beb638f6",
+      "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+      "slug": "anthropic-claude-crashes-the-azure-party-the-ultimate-ai-tag-team-has-arrived-1",
+      "firstPublishedDate": "2025-12-23T19:19:23.657Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "33718d85-4d9e-4a19-9573-7f0137cd2c49",
+      "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+      "slug": "anthropic-claude-crashes-the-azure-party-the-ultimate-ai-tag-team-has-arrived-2",
+      "firstPublishedDate": "2025-12-23T19:22:02.050Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "0af3c1f5-4744-4caa-96a3-7b8d7cb8d45b",
+      "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
+      "slug": "anthropic-claude-crashes-the-azure-party-the-ultimate-ai-tag-team-has-arrived-3",
+      "firstPublishedDate": "2026-03-25T18:01:19.839Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "fd924c6a-111f-487a-b24b-cd805786e4fe",
+      "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
+      "slug": "azure-boost-microsoft-s-secret-sauce-for-virtualization-performance-is-totally-gnarly-1",
+      "firstPublishedDate": "2025-12-23T19:22:16.607Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4d92d2ee-bbc7-4cfa-baf9-fd29fa58b8b8",
+      "title": "Azure Boost: Microsoft's Secret Sauce for Virtualization Performance Is Totally Gnarly",
+      "slug": "azure-boost-microsoft-s-secret-sauce-for-virtualization-performance-is-totally-gnarly-2",
+      "firstPublishedDate": "2026-03-25T18:01:37.174Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "55c06719-d721-46c2-a2cb-d92be35d2632",
+      "title": "Azure Cobalt 200: Microsoft's ARM Processor Flexes Its Muscles Like an 80s Action Hero",
+      "slug": "azure-cobalt-200-microsoft-s-arm-processor-flexes-its-muscles-like-an-80s-action-hero-1",
+      "firstPublishedDate": "2025-12-23T19:22:28.916Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "d34a814b-2b83-4286-86ed-31bcef898058",
+      "title": "Azure Cobalt 200: Microsoft's ARM Processor Flexes Its Muscles Like an 80s Action Hero",
+      "slug": "azure-cobalt-200-microsoft-s-arm-processor-flexes-its-muscles-like-an-80s-action-hero-2",
+      "firstPublishedDate": "2026-03-25T18:01:53.602Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "94f411be-b6f5-4cca-ba2c-d6e797c7d19d",
+      "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+      "slug": "azure-container-apps-networking-gets-a-major-upgrade-consumption-environments-just-got-seriously-po-1",
+      "firstPublishedDate": "2026-01-08T18:28:08.968Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "bd8361fe-d7ba-43fa-8fbb-ad7914841a2c",
+      "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+      "slug": "azure-container-apps-networking-gets-a-major-upgrade-consumption-environments-just-got-seriously-po-2",
+      "firstPublishedDate": "2026-01-08T18:33:26.712Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "9e91bd2b-bf24-4557-b746-e5a64a51bebb",
+      "title": "Azure Container Apps Networking Gets a Major Upgrade: Consumption Environments Just Got Seriously Powerful",
+      "slug": "azure-container-apps-networking-gets-a-major-upgrade-consumption-environments-just-got-seriously-po-3",
+      "firstPublishedDate": "2026-01-08T18:43:04.235Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "8e4f6cd9-73be-4d57-bd4d-87c0b48f5bce",
+      "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+      "slug": "azure-copilot-agents-your-cloud-operations-just-got-a-rad-ai-pit-crew-1",
+      "firstPublishedDate": "2025-12-23T19:19:28.237Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "89fefbcf-9855-4acf-9439-d05fff43da1c",
+      "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+      "slug": "azure-copilot-agents-your-cloud-operations-just-got-a-rad-ai-pit-crew-2",
+      "firstPublishedDate": "2025-12-23T19:22:06.795Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4e3fc6d3-af06-4197-aad0-89e4d31e4b7d",
+      "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
+      "slug": "azure-copilot-agents-your-cloud-operations-just-got-a-rad-ai-pit-crew-3",
+      "firstPublishedDate": "2026-03-25T18:01:25.817Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "7c95d8d3-43d0-4867-a369-ea9a1a1eb579",
+      "title": "Azure DocumentDB: The Open-Source NoSQL Champion Goes Multi-Cloud and AI-Ready",
+      "slug": "azure-documentdb-the-open-source-nosql-champion-goes-multi-cloud-and-ai-ready-1",
+      "firstPublishedDate": "2025-12-23T19:22:21.394Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "de82eeff-81c3-4ba1-b041-0b145d32d260",
+      "title": "Azure DocumentDB: The Open-Source NoSQL Champion Goes Multi-Cloud and AI-Ready",
+      "slug": "azure-documentdb-the-open-source-nosql-champion-goes-multi-cloud-and-ai-ready-2",
+      "firstPublishedDate": "2026-03-25T18:01:43.466Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "c494a821-525c-49b3-a345-a78ebefc9672",
+      "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+      "slug": "azure-horizondb-postgresql-gets-a-turbo-boost-that-would-make-kitt-jealous-1",
+      "firstPublishedDate": "2025-12-23T19:19:25.853Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "f23c7026-b60a-478a-a863-22ef37382fe7",
+      "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+      "slug": "azure-horizondb-postgresql-gets-a-turbo-boost-that-would-make-kitt-jealous-2",
+      "firstPublishedDate": "2025-12-23T19:22:04.454Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4b4d3073-748c-441c-b4e0-967ceb1bd405",
+      "title": "Azure HorizonDB: PostgreSQL Gets a Turbo Boost That Would Make KITT Jealous",
+      "slug": "azure-horizondb-postgresql-gets-a-turbo-boost-that-would-make-kitt-jealous-3",
+      "firstPublishedDate": "2026-03-25T18:01:22.920Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4b7baeca-1aaa-487f-b718-fea01b203a68",
+      "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
+      "slug": "azure-networking-gets-a-neon-makeover-security-reliability-and-high-availability-power-ups-1",
+      "firstPublishedDate": "2025-12-23T19:22:33.777Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "1823b147-8f1c-4134-9c63-a81bee1193cd",
+      "title": "Azure Networking Gets a Neon Makeover: Security, Reliability, and High Availability Power-Ups",
+      "slug": "azure-networking-gets-a-neon-makeover-security-reliability-and-high-availability-power-ups-2",
+      "firstPublishedDate": "2026-03-25T18:02:00.256Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "12634793-a612-4e1d-bb45-fbdc3b2b2133",
+      "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
+      "slug": "azure-pulse-december-2025-your-monthly-dose-of-cloud-innovation-straight-from-the-neon-grid-1",
+      "firstPublishedDate": "2025-12-23T19:22:43.529Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "edcc4490-5053-4fd7-b84d-51c4a92e852c",
+      "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
+      "slug": "azure-pulse-december-2025-your-monthly-dose-of-cloud-innovation-straight-from-the-neon-grid-2",
+      "firstPublishedDate": "2026-03-25T18:02:12.532Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "f6e1680b-bb92-43b8-8fa0-c149cdc1f9e4",
+      "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+      "slug": "azure-pulse-january-2026-your-new-year-starts-with-cloud-innovation-that-sets-the-tone-for-2026-1",
+      "firstPublishedDate": "2026-01-08T18:28:33.566Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "5f66dd40-e99c-46cf-b994-d4e4769dc418",
+      "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+      "slug": "azure-pulse-january-2026-your-new-year-starts-with-cloud-innovation-that-sets-the-tone-for-2026-2",
+      "firstPublishedDate": "2026-01-08T18:33:52.604Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "ce99f78b-2e99-477c-b0cb-a1197463161e",
+      "title": "Azure Pulse January 2026: Your New Year Starts with Cloud Innovation That Sets the Tone for 2026",
+      "slug": "azure-pulse-january-2026-your-new-year-starts-with-cloud-innovation-that-sets-the-tone-for-2026-3",
+      "firstPublishedDate": "2026-01-08T18:43:34.295Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "40b8aa74-ce14-40f5-b443-78eae98995b5",
+      "title": "Azure Storage Innovations: Unlocking the Future of Data in the Cloud Era",
+      "slug": "azure-storage-innovations-unlocking-the-future-of-data-in-the-cloud-era-1",
+      "firstPublishedDate": "2025-12-23T19:22:38.511Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "b3547aa6-f21c-402a-afd4-59be9d3987a2",
+      "title": "Azure Storage Innovations: Unlocking the Future of Data in the Cloud Era",
+      "slug": "azure-storage-innovations-unlocking-the-future-of-data-in-the-cloud-era-2",
+      "firstPublishedDate": "2026-03-25T18:02:06.433Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "561e9ba9-6809-4fa1-bea0-005812ccf35f",
+      "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+      "slug": "azure-ultra-disk-2-0-the-storage-speed-demon-that-laughs-at-iops-limits-1",
+      "firstPublishedDate": "2025-12-23T19:19:33.411Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "2d322444-4ae2-4f87-b474-9ce7ac0f00b0",
+      "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+      "slug": "azure-ultra-disk-2-0-the-storage-speed-demon-that-laughs-at-iops-limits-2",
+      "firstPublishedDate": "2025-12-23T19:22:11.676Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "b693a5c5-01cf-47e1-93ad-3a134969e9cd",
+      "title": "Azure Ultra Disk 2.0: The Storage Speed Demon That Laughs at IOPS Limits",
+      "slug": "azure-ultra-disk-2-0-the-storage-speed-demon-that-laughs-at-iops-limits-3",
+      "firstPublishedDate": "2026-03-25T18:01:31.587Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "aba53310-dcfe-4516-9d26-81b658123770",
+      "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+      "slug": "azure-virtual-desktop-evolves-ubuntu-session-hosts-and-cross-platform-flexibility-signal-a-new-era-1",
+      "firstPublishedDate": "2026-01-08T18:28:11.967Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "abd8f7ac-ec64-4d9a-b12b-51eb404683a7",
+      "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+      "slug": "azure-virtual-desktop-evolves-ubuntu-session-hosts-and-cross-platform-flexibility-signal-a-new-era-2",
+      "firstPublishedDate": "2026-01-08T18:33:29.918Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "5790863b-0d07-41b1-b348-fe0b69b08afd",
+      "title": "Azure Virtual Desktop Evolves: Ubuntu Session Hosts and Cross-Platform Flexibility Signal a New Era",
+      "slug": "azure-virtual-desktop-evolves-ubuntu-session-hosts-and-cross-platform-flexibility-signal-a-new-era-3",
+      "firstPublishedDate": "2026-01-08T18:43:09.164Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "0b1a7e71-33b4-4ef3-a1d1-3e24a4d495d6",
+      "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+      "slug": "claude-opus-4-5-arrives-in-microsoft-foundry-anthropic-s-most-capable-model-joins-the-azure-ai-arse-1",
+      "firstPublishedDate": "2026-01-08T18:28:05.732Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "dc65041a-3ce8-474f-a89e-8267b2d2188d",
+      "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+      "slug": "claude-opus-4-5-arrives-in-microsoft-foundry-anthropic-s-most-capable-model-joins-the-azure-ai-arse-2",
+      "firstPublishedDate": "2026-01-08T18:33:23.449Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4828d622-74e7-4412-ad8f-a9e615ddc7cd",
+      "title": "Claude Opus 4.5 Arrives in Microsoft Foundry: Anthropic's Most Capable Model Joins the Azure AI Arsenal",
+      "slug": "claude-opus-4-5-arrives-in-microsoft-foundry-anthropic-s-most-capable-model-joins-the-azure-ai-arse-3",
+      "firstPublishedDate": "2026-01-08T18:43:00.159Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "06af5f98-a2a7-4fd3-a405-0d978a0975f2",
+      "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+      "slug": "cloud-resiliency-reimagined-how-azure-essentials-and-shared-responsibility-build-bulletproof-archit-1",
+      "firstPublishedDate": "2026-01-08T18:28:21.327Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "65e37d31-9edd-4bce-8e24-5ab3712939c8",
+      "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+      "slug": "cloud-resiliency-reimagined-how-azure-essentials-and-shared-responsibility-build-bulletproof-archit-2",
+      "firstPublishedDate": "2026-01-08T18:33:39.539Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "d3943d7e-211c-4e3e-9df5-341fb40be7c6",
+      "title": "Cloud Resiliency Reimagined: How Azure Essentials and Shared Responsibility Build Bulletproof Architectures",
+      "slug": "cloud-resiliency-reimagined-how-azure-essentials-and-shared-responsibility-build-bulletproof-archit-3",
+      "firstPublishedDate": "2026-01-08T18:43:21.253Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "b64d57dd-d545-497f-8689-0f881d93009e",
+      "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
+      "slug": "foundry-iq-the-ai-brain-that-actually-understands-your-enterprise-data-1",
+      "firstPublishedDate": "2025-12-23T19:22:26.268Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "141719fd-ad69-4557-b77f-b7a113e55b21",
+      "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
+      "slug": "foundry-iq-the-ai-brain-that-actually-understands-your-enterprise-data-2",
+      "firstPublishedDate": "2026-03-25T18:01:50.712Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "324e747e-d1a3-45cc-a946-08a0958b571a",
+      "title": "GitHub Advanced Security Meets Defender: The Ultimate DevSecOps Power Couple of 2025",
+      "slug": "github-advanced-security-meets-defender-the-ultimate-devsecops-power-couple-of-2025-1",
+      "firstPublishedDate": "2025-12-23T19:22:31.359Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "89d63852-eb5b-446e-b1a4-e9b88b92a855",
+      "title": "GitHub Advanced Security Meets Defender: The Ultimate DevSecOps Power Couple of 2025",
+      "slug": "github-advanced-security-meets-defender-the-ultimate-devsecops-power-couple-of-2025-2",
+      "firstPublishedDate": "2026-03-25T18:01:57.461Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "544001e9-7b23-49ce-bd20-264b6e2d63cd",
+      "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+      "slug": "github-universe-2025-where-developer-innovation-took-center-stage-and-the-future-got-written-in-cod-1",
+      "firstPublishedDate": "2026-01-08T18:28:27.572Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "3c2e52b8-3ef4-4587-9098-3b68e0cb15d4",
+      "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+      "slug": "github-universe-2025-where-developer-innovation-took-center-stage-and-the-future-got-written-in-cod-2",
+      "firstPublishedDate": "2026-01-08T18:33:45.869Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "61e14136-6664-44a4-a91d-2a1c264dc332",
+      "title": "GitHub Universe 2025: Where Developer Innovation Took Center Stage and the Future Got Written in Code",
+      "slug": "github-universe-2025-where-developer-innovation-took-center-stage-and-the-future-got-written-in-cod-3",
+      "firstPublishedDate": "2026-01-08T18:43:27.949Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "33e12525-89ff-4c7c-9dda-52c9cf045cfb",
+      "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+      "slug": "gpt-5-2-hits-the-neon-grid-microsoft-foundry-s-new-ai-powerhouse-is-totally-radical-1",
+      "firstPublishedDate": "2025-12-23T19:19:18.855Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "1dd3e2ea-1f88-4ed5-a82d-4c942524c7be",
+      "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+      "slug": "gpt-5-2-hits-the-neon-grid-microsoft-foundry-s-new-ai-powerhouse-is-totally-radical-2",
+      "firstPublishedDate": "2025-12-23T19:21:57.377Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4a7232e7-dd32-4ae7-a957-c0c399998e82",
+      "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
+      "slug": "gpt-5-2-hits-the-neon-grid-microsoft-foundry-s-new-ai-powerhouse-is-totally-radical-3",
+      "firstPublishedDate": "2026-03-25T18:01:13.518Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "68b86d8a-7c99-4179-a286-7cd94b0ab3dc",
+      "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+      "slug": "infinite-scale-the-architecture-behind-azure-s-ai-superfactory-is-absolutely-mind-blowing-1",
+      "firstPublishedDate": "2026-01-08T18:27:50.252Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "766be680-5db4-497f-aca9-399ae0ed7c01",
+      "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+      "slug": "infinite-scale-the-architecture-behind-azure-s-ai-superfactory-is-absolutely-mind-blowing-2",
+      "firstPublishedDate": "2026-01-08T18:33:07.096Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "bb3c7bbf-6951-430b-8f0a-e4296c266402",
+      "title": "Infinite Scale: The Architecture Behind Azure's AI Superfactory Is Absolutely Mind-Blowing",
+      "slug": "infinite-scale-the-architecture-behind-azure-s-ai-superfactory-is-absolutely-mind-blowing-3",
+      "firstPublishedDate": "2026-01-08T18:42:42.062Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "12b6de81-fa6b-46d3-b082-224cc2bbf32a",
+      "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+      "slug": "log-analytics-meets-microsoft-fabric-when-observability-data-flows-into-your-analytics-playground-1",
+      "firstPublishedDate": "2026-01-08T18:28:15.095Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "138d49bd-8203-4b5c-a4b7-f9586ba90155",
+      "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+      "slug": "log-analytics-meets-microsoft-fabric-when-observability-data-flows-into-your-analytics-playground-2",
+      "firstPublishedDate": "2026-01-08T18:33:33Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "d17c8dd1-9916-46c8-8ff6-c449e7097e37",
+      "title": "Log Analytics Meets Microsoft Fabric: When Observability Data Flows Into Your Analytics Playground",
+      "slug": "log-analytics-meets-microsoft-fabric-when-observability-data-flows-into-your-analytics-playground-3",
+      "firstPublishedDate": "2026-01-08T18:43:13.135Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "10fc2418-2b19-47ca-8804-58ff397bef9d",
+      "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+      "slug": "microsoft-fabric-iq-your-data-estate-just-got-a-brain-upgrade-from-the-future-1",
+      "firstPublishedDate": "2025-12-23T19:19:31.004Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "d032e56b-4893-48c0-a52c-441a7e7be702",
+      "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+      "slug": "microsoft-fabric-iq-your-data-estate-just-got-a-brain-upgrade-from-the-future-2",
+      "firstPublishedDate": "2025-12-23T19:22:09.272Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "88ae84ad-812e-473b-9cb8-020c552ef744",
+      "title": "Microsoft Fabric IQ: Your Data Estate Just Got a Brain Upgrade from the Future",
+      "slug": "microsoft-fabric-iq-your-data-estate-just-got-a-brain-upgrade-from-the-future-3",
+      "firstPublishedDate": "2026-03-25T18:01:28.623Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "7afbfb85-f5ca-496e-8775-367925b16937",
+      "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+      "slug": "microsoft-ignite-2025-the-synthwave-symphony-of-cloud-innovation-that-rocked-the-tech-world-1",
+      "firstPublishedDate": "2025-12-23T19:19:21.383Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "9ce9dcb5-ee8c-4d4e-9294-624d9eb06ca5",
+      "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+      "slug": "microsoft-ignite-2025-the-synthwave-symphony-of-cloud-innovation-that-rocked-the-tech-world-2",
+      "firstPublishedDate": "2025-12-23T19:21:59.734Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "016f46d9-f761-40a7-bd89-7b815ca17571",
+      "title": "Microsoft Ignite 2025: The Synthwave Symphony of Cloud Innovation That Rocked the Tech World",
+      "slug": "microsoft-ignite-2025-the-synthwave-symphony-of-cloud-innovation-that-rocked-the-tech-world-3",
+      "firstPublishedDate": "2026-03-25T18:01:16.568Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "c9f68442-b6b2-4016-8c5e-9a0aed3998cf",
+      "title": "Microsoft Named Gartner Magic Quadrant Leader: When the Analysts Say You're Totally Rad",
+      "slug": "microsoft-named-gartner-magic-quadrant-leader-when-the-analysts-say-you-re-totally-rad-1",
+      "firstPublishedDate": "2025-12-23T19:22:40.843Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "d560ec67-d5db-47a8-91be-202134f9599f",
+      "title": "Microsoft Named Gartner Magic Quadrant Leader: When the Analysts Say You're Totally Rad",
+      "slug": "microsoft-named-gartner-magic-quadrant-leader-when-the-analysts-say-you-re-totally-rad-2",
+      "firstPublishedDate": "2026-03-25T18:02:09.585Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "b55d9ece-eb70-4030-a95d-426328675e58",
+      "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
+      "slug": "microsoft-sovereign-cloud-when-your-data-needs-diplomatic-immunity-and-zero-compromise-1",
+      "firstPublishedDate": "2025-12-23T19:22:23.762Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "26042b7e-7165-4b4e-86bd-976b92a73d9a",
+      "title": "Microsoft Sovereign Cloud: When Your Data Needs Diplomatic Immunity and Zero Compromise",
+      "slug": "microsoft-sovereign-cloud-when-your-data-needs-diplomatic-immunity-and-zero-compromise-2",
+      "firstPublishedDate": "2026-03-25T18:01:47.594Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "58e9724b-f44d-4e84-bc76-bf3b081351f6",
+      "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
+      "slug": "mistral-large-3-storms-into-microsoft-foundry-the-open-weight-champion-has-entered-the-ring-1",
+      "firstPublishedDate": "2025-12-23T19:22:18.860Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "0228272e-c687-4209-89ff-ee3faf566796",
+      "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
+      "slug": "mistral-large-3-storms-into-microsoft-foundry-the-open-weight-champion-has-entered-the-ring-2",
+      "firstPublishedDate": "2026-03-25T18:01:40.363Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "0fb8ba86-a3ec-4583-a3db-6166b2a46336",
+      "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+      "slug": "nvidia-rubin-meets-azure-microsoft-s-strategic-ai-datacenter-planning-sets-the-stage-for-next-gen-g-1",
+      "firstPublishedDate": "2026-01-08T18:27:53.406Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "15c122e5-f3da-4e6a-ace8-6a95fae89966",
+      "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+      "slug": "nvidia-rubin-meets-azure-microsoft-s-strategic-ai-datacenter-planning-sets-the-stage-for-next-gen-g-2",
+      "firstPublishedDate": "2026-01-08T18:33:10.180Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "a29c433c-edb7-4445-be39-0b5fd2aa60e0",
+      "title": "NVIDIA Rubin Meets Azure: Microsoft's Strategic AI Datacenter Planning Sets the Stage for Next-Gen GPU Dominance",
+      "slug": "nvidia-rubin-meets-azure-microsoft-s-strategic-ai-datacenter-planning-sets-the-stage-for-next-gen-g-3",
+      "firstPublishedDate": "2026-01-08T18:42:46Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4fe408cb-5cb9-41ea-9a71-5a934b3e38d1",
+      "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+      "slug": "oracle-database-azure-expands-to-west-europe-the-cloud-partnership-that-keeps-getting-bigger-1",
+      "firstPublishedDate": "2026-01-08T18:27:59.559Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "e5fa2f72-3ca7-48b3-ac41-7df82d7584c8",
+      "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+      "slug": "oracle-database-azure-expands-to-west-europe-the-cloud-partnership-that-keeps-getting-bigger-2",
+      "firstPublishedDate": "2026-01-08T18:33:16.732Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "4c28cb67-4dd0-4adf-a259-aa810fb90c13",
+      "title": "Oracle Database@Azure Expands to West Europe: The Cloud Partnership That Keeps Getting Bigger",
+      "slug": "oracle-database-azure-expands-to-west-europe-the-cloud-partnership-that-keeps-getting-bigger-3",
+      "firstPublishedDate": "2026-01-08T18:42:52.624Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "a6ec3eb9-3bed-4620-a9dd-2ba375a00877",
+      "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+      "slug": "performance-plus-for-azure-disk-storage-when-your-storage-needs-to-be-as-fast-as-your-ambitions-1",
+      "firstPublishedDate": "2026-01-08T18:28:24.458Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "96efb01b-904a-4b8f-972e-0cd6f3745f04",
+      "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+      "slug": "performance-plus-for-azure-disk-storage-when-your-storage-needs-to-be-as-fast-as-your-ambitions-2",
+      "firstPublishedDate": "2026-01-08T18:33:42.779Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "f638a863-c6c6-414f-a2cb-9ec7dc38d358",
+      "title": "Performance Plus for Azure Disk Storage: When Your Storage Needs to Be as Fast as Your Ambitions",
+      "slug": "performance-plus-for-azure-disk-storage-when-your-storage-needs-to-be-as-fast-as-your-ambitions-3",
+      "firstPublishedDate": "2026-01-08T18:43:24.829Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "cfe83a06-b30f-4c20-9d29-32905f9de7b4",
+      "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+      "slug": "securing-our-future-microsoft-s-november-2025-progress-report-shows-security-transformation-at-unpr-1",
+      "firstPublishedDate": "2026-01-08T18:28:02.653Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "5989f85d-3434-4f3e-b86b-de7bfc1d1a93",
+      "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+      "slug": "securing-our-future-microsoft-s-november-2025-progress-report-shows-security-transformation-at-unpr-2",
+      "firstPublishedDate": "2026-01-08T18:33:19.856Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "e1ee2fd2-fab1-4dd8-bc58-d8ef11a9d9c0",
+      "title": "Securing Our Future: Microsoft's November 2025 Progress Report Shows Security Transformation at Unprecedented Scale",
+      "slug": "securing-our-future-microsoft-s-november-2025-progress-report-shows-security-transformation-at-unpr-3",
+      "firstPublishedDate": "2026-01-08T18:42:55.994Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "8659fc71-adaf-464a-af79-a70b0bf42448",
+      "title": "SQL Server 2025: The Classic Database Gets an AI Makeover That Slaps",
+      "slug": "sql-server-2025-the-classic-database-gets-an-ai-makeover-that-slaps-1",
+      "firstPublishedDate": "2025-12-23T19:22:14.155Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "27be8233-6915-475a-9d69-e782cdc83f6c",
+      "title": "SQL Server 2025: The Classic Database Gets an AI Makeover That Slaps",
+      "slug": "sql-server-2025-the-classic-database-gets-an-ai-makeover-that-slaps-2",
+      "firstPublishedDate": "2026-03-25T18:01:34.400Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "24809701-7b51-47a0-a885-f2df1e2b8d0d",
+      "title": "TEST - Cover Image Final Test - DELETE ME",
+      "slug": "test-cover-image-final-test-delete-me",
+      "firstPublishedDate": "2026-01-08T18:42:16.396Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "d6bc14a9-b6bf-4445-a3bb-88041da7799b",
+      "title": "TEST - Image Display Test (Delete Me)",
+      "slug": "test-image-display-test-delete-me",
+      "firstPublishedDate": "2026-01-08T18:31:12.331Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "0b589577-519b-4c01-a969-201dcb331cad",
+      "title": "TEST - Image Display Test (Delete Me)",
+      "slug": "test-image-display-test-delete-me-1",
+      "firstPublishedDate": "2026-01-08T18:31:29.690Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "1d942c15-c76e-42a6-9c91-9d7df6693305",
+      "title": "TEST - Image Display Test (Delete Me)",
+      "slug": "test-image-display-test-delete-me-2",
+      "firstPublishedDate": "2026-01-08T18:31:48.569Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "e2113bf7-3004-4cc9-96f9-bd655aece92c",
+      "title": "TEST Cover media.imag - DELETE",
+      "slug": "test-cover-media-imag-delete",
+      "firstPublishedDate": "2026-01-08T18:40:44.755Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "84d97c29-1fb1-481a-bce5-6c53e0e39e6c",
+      "title": "TEST Cover media.imag - DELETE",
+      "slug": "test-cover-media-imag-delete-1",
+      "firstPublishedDate": "2026-01-08T18:40:46.660Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "e1310a67-b4e4-490b-9591-4071f3c08aa5",
+      "title": "TEST Cover R2-1 - DELETE ME",
+      "slug": "test-cover-r2-1-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:41.582Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "fa2453a9-9fb4-4c1a-a3c4-3fcbc58dd910",
+      "title": "TEST Cover R2-2 - DELETE ME",
+      "slug": "test-cover-r2-2-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:42.779Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "230a82d0-646e-45e2-8367-9588414c5e04",
+      "title": "TEST Cover R2-3 - DELETE ME",
+      "slug": "test-cover-r2-3-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:43.837Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "f7fe3743-5ac5-415c-9caa-0a9c5db2f184",
+      "title": "TEST Cover R2-4 - DELETE ME",
+      "slug": "test-cover-r2-4-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:45.263Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "59e5e523-9c0d-4887-af31-e8498895bc8f",
+      "title": "TEST Cover R2-5 - DELETE ME",
+      "slug": "test-cover-r2-5-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:47.026Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "bbff9f01-8080-4254-98a1-a2d20c6bbe92",
+      "title": "TEST Cover R2-7 - DELETE ME",
+      "slug": "test-cover-r2-7-delete-me",
+      "firstPublishedDate": "2026-01-08T18:39:49.036Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "3bb91a6e-8786-4f1f-a9a5-0bc647ecb1e8",
+      "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+      "slug": "uipath-meets-azure-ai-foundry-intelligent-agents-transform-healthcare-workflows-into-reality-1",
+      "firstPublishedDate": "2026-01-08T18:28:18.366Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "df89cf28-51cd-4505-a072-5e46aaea4420",
+      "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+      "slug": "uipath-meets-azure-ai-foundry-intelligent-agents-transform-healthcare-workflows-into-reality-2",
+      "firstPublishedDate": "2026-01-08T18:33:36.352Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    },
+    {
+      "id": "a106c218-d695-441d-92c1-9b71a920fc85",
+      "title": "UiPath Meets Azure AI Foundry: Intelligent Agents Transform Healthcare Workflows Into Reality",
+      "slug": "uipath-meets-azure-ai-foundry-intelligent-agents-transform-healthcare-workflows-into-reality-3",
+      "firstPublishedDate": "2026-01-08T18:43:17.679Z",
+      "ok": true,
+      "status": 200,
+      "error": ""
+    }
+  ],
+  "completedUtc": "2026-06-20T08:07:06Z",
+  "coverUpdatesSucceeded": 34,
+  "deletesSucceeded": 104,
+  "deletesFailed": 0
+}

@@ -4,7 +4,8 @@ Blog Post 1: GPT-5.2 in Microsoft Foundry
 
 BLOG_POST = {
     "title": "GPT-5.2 Hits the Neon Grid: Microsoft Foundry's New AI Powerhouse Is Totally Radical",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Grab your Ray-Bans and crank up the synth-wave playlist, cloud warriors—because Microsoft just dropped a bombshell that would make even Marty McFly jealous. GPT-5.2 has officially landed in Microsoft Foundry, and it's not just an upgrade; it's a full-blown revolution wrapped in enterprise-grade armor. If you've been waiting for the moment when AI stops being a cool party trick and starts being a serious business partner, that moment is now.
 
 Let me take you on a journey through this neon-lit landscape of artificial intelligence, where reasoning engines hum like DeLorean flux capacitors and enterprise workflows dance to the rhythm of intelligent automation.
@@ -194,10 +195,10 @@ Fire up your terminals, cloud warriors. The future is calling, and it speaks GPT
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "GPT-5.2 lands in Microsoft Foundry with unprecedented reasoning capabilities, agentic execution, and enterprise-grade governance. Discover what makes this AI revolution truly radical.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "GPT-5.2", "Microsoft Foundry", "AI", "Machine Learning", "Enterprise AI"]
 }

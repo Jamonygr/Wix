@@ -4,7 +4,8 @@ Blog Post 20: Azure Pulse December 2025
 
 BLOG_POST = {
     "title": "Azure Pulse December 2025: Your Monthly Dose of Cloud Innovation Straight from the Neon Grid",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """The year is ending, but Microsoft's Azure innovation engine is running at full throttle. December 2025 has been absolutely packed with announcements, updates, and improvements across the entire Azure ecosystem. From AI breakthroughs to infrastructure upgrades to developer experience enhancements—there's something for everyone in this month's Azure Pulse.
 
 Pour yourself some eggnog, fire up the holiday playlist, and let's unwrap all the cloud presents Microsoft has delivered this month.
@@ -409,10 +410,10 @@ Happy holidays, cloud warriors. See you in 2026!
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Your comprehensive December 2025 Azure update covering GPT-5.2, HorizonDB, infrastructure advances, security updates, and everything else that dropped this month. The year ends strong!",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Azure Pulse", "December 2025", "Cloud Computing", "AI", "Monthly Update"]
 }

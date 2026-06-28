@@ -4,7 +4,8 @@ Blog Post 10: Mistral Large 3 in Microsoft Foundry
 
 BLOG_POST = {
     "title": "Mistral Large 3 Storms into Microsoft Foundry: The Open-Weight Champion Has Entered the Ring",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """The AI model arena just got a lot more interesting. Mistral AI, the French startup that's been punching well above its weight class, has brought Mistral Large 3 to Microsoft Foundry. And let me tell you, this isn't just another model in the catalog—it's a statement about the future of open and commercial AI.
 
 Mistral has been turning heads with models that deliver frontier-class performance while maintaining transparency about their architecture and training. Now, Azure customers can access this capability directly in Foundry, integrated with the same tools, governance, and infrastructure they use for other models.
@@ -309,10 +310,10 @@ Your toolkit just got another powerful option. Use it wisely.
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Mistral Large 3 joins Microsoft Foundry, bringing European-developed AI with efficient architecture and open weights. Discover why this model deserves a place in your AI toolkit.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Mistral AI", "Microsoft Foundry", "AI", "Machine Learning", "LLM"]
 }

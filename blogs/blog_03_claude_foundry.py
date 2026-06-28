@@ -4,7 +4,8 @@ Blog Post 3: Anthropic Claude in Microsoft Foundry
 
 BLOG_POST = {
     "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Picture this: it's 1985, and the ultimate wrestling tag team just stepped into the ring. In one corner, you've got the undisputed heavyweight champion, OpenAI's GPT. In the other corner, the philosophical reasoning master, Anthropic's Claude. And Microsoft just announced they're teaming up in Azure's Microsoft Foundry. The crowd goes absolutely wild.
 
 This isn't just a partnership announcement—it's a fundamental shift in how enterprises will approach AI. For the first time ever, you can access both frontier AI families on a single cloud platform. And trust me, the implications are massive.
@@ -216,10 +217,10 @@ Let the multi-model symphony begin.
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Anthropic's Claude models join Microsoft Foundry, making Azure the only cloud with both OpenAI and Anthropic. Discover what this game-changing partnership means for enterprise AI.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Anthropic", "Claude", "Microsoft Foundry", "AI", "Machine Learning", "Enterprise AI"]
 }

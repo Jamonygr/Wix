@@ -4,9 +4,9 @@ Blog Post 15: GitHub + Defender Integration - Narrative Style with Image
 
 BLOG_POST = {
     "title": "GitHub Advanced Security Meets Defender: The Ultimate DevSecOps Power Couple of 2025",
-    
-    "coverImage": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Security used to be something that happened at the end. Developers wrote code, operations deployed it, and security teams audited the result—usually finding vulnerabilities that required painful rework. This sequential approach never worked particularly well, and it works even less well in an era of continuous deployment, rapid iteration, and sophisticated attackers. Something had to change.
 
 The integration of GitHub Advanced Security with Microsoft Defender for Cloud represents what that change looks like in practice. Security shifts left into the development process while simultaneously extending right into production monitoring. The result is continuous security that accompanies code from the moment it's written through every moment it runs. And it works.
@@ -41,10 +41,10 @@ Looking at where security is heading, the integration of development and product
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "GitHub Advanced Security and Microsoft Defender for Cloud now integrate natively, creating seamless security from code to cloud that makes DevSecOps genuinely practical.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "GitHub", "Security", "DevSecOps", "Defender", "Cloud Computing"]
 }

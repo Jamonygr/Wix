@@ -4,7 +4,8 @@ Blog Post 11: Azure DocumentDB
 
 BLOG_POST = {
     "title": "Azure DocumentDB: The Open-Source NoSQL Champion Goes Multi-Cloud and AI-Ready",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Remember when choosing a document database meant choosing a vendor ecosystem forever? Those days are as outdated as mullets and shoulder pads. Azure DocumentDB just went generally available, and it's bringing open-source compatibility, multi-cloud flexibility, and AI-ready features to the NoSQL party.
 
 This isn't Microsoft creating another proprietary database. This is Microsoft embracing open standards while adding the enterprise capabilities that serious deployments demand. And for organizations tired of NoSQL vendor lock-in, DocumentDB is exactly the radical solution they've been waiting for.
@@ -350,10 +351,10 @@ Your documents are ready for their AI-powered, multi-cloud future. DocumentDB is
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure DocumentDB brings MongoDB-compatible NoSQL with open-source foundations, multi-cloud flexibility, and native AI capabilities including vector search. The document database evolved.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "DocumentDB", "NoSQL", "MongoDB", "Database", "AI", "Cloud Computing"]
 }

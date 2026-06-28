@@ -4,9 +4,9 @@ Blog Post 3: Anthropic Claude in Microsoft Foundry - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Anthropic Claude Crashes the Azure Party: The Ultimate AI Tag Team Has Arrived",
-    
-    "coverImage": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """The AI landscape just experienced a seismic shift, and if you blinked, you might have missed the magnitude of what just happened. Microsoft and Anthropic have joined forces to bring Claude directly into Microsoft Foundry, creating what might be the most powerful enterprise AI combination the world has ever seen. This isn't just a business partnership; it's a declaration that the future of AI will be built on choice, flexibility, and the recognition that different problems demand different solutions.
 
 Let me paint the picture of why this matters so much. For years, enterprise customers have faced an uncomfortable reality: committing to an AI platform often meant committing to a single model provider. Choose OpenAI, and you got GPT. Choose Google, and you got Gemini. Choose Anthropic directly, and you navigated their API outside your primary cloud infrastructure. Each choice came with trade-offs, and each platform felt a little bit like a walled garden with its own rules and limitations.
@@ -41,10 +41,10 @@ For practitioners planning their AI initiatives, the message is clear: you no lo
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Anthropic Claude joins Microsoft Foundry, creating an unprecedented multi-model AI platform that gives enterprises the freedom to choose the best AI for every task.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Foundry", "Anthropic", "Claude", "AI", "Cloud Computing"]
 }

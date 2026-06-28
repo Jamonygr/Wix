@@ -4,9 +4,9 @@ Blog Post 17: Microsoft and Red Hat Partnership - Narrative Style with Image
 
 BLOG_POST = {
     "title": "A Decade of Open Innovation: Microsoft and Red Hat's Partnership Proves Rivals Can Be Radical Allies",
-    
-    "coverImage": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Ten years ago, suggesting that Microsoft and Red Hat would become close partners would have gotten you laughed out of most IT departments. The rivalry between Windows and Linux had defined enterprise computing for years. Microsoft's leadership had called Linux a cancer. Red Hat had built their business partly on being the enterprise alternative to Microsoft's dominance. The companies existed in opposing corners of the technology universe.
 
 And yet, here we are in 2025, celebrating a decade of collaboration that has benefited both companies and, more importantly, their customers. The Microsoft-Red Hat partnership stands as proof that even the deepest technology rivalries can transform into productive collaboration when customer needs demand it.
@@ -41,10 +41,10 @@ The broader lesson from this decade of collaboration extends beyond the specific
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "A decade of Microsoft and Red Hat partnership has transformed former rivals into close collaborators, delivering RHEL on Azure, OpenShift integration, and hybrid cloud capabilities.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Red Hat", "Linux", "OpenShift", "Partnership", "Enterprise"]
 }

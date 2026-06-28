@@ -4,9 +4,9 @@ Blog Post 13: Foundry IQ - Narrative Style with Image
 
 BLOG_POST = {
     "title": "Foundry IQ: The AI Brain That Actually Understands Your Enterprise Data",
-    
-    "coverImage": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=1200",
-    
+
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Every enterprise implementing AI faces the same fundamental challenge: the models know a lot about the world but nothing about your organization. You can ask GPT to write elegant prose or explain quantum physics, but ask it about your company's products, your internal processes, or your customer relationships, and you'll get generic responses that miss the mark entirely. The gap between what AI models know and what your business needs them to know has limited the practical value of AI for countless organizations.
 
 Foundry IQ represents Microsoft's most sophisticated approach yet to bridging this gap. It's not just another retrieval-augmented generation system bolted onto an API. It's a comprehensive framework for connecting AI models to enterprise knowledge, grounding their responses in your specific data, and ensuring the results are accurate, relevant, and trustworthy.
@@ -41,10 +41,10 @@ For organizations serious about enterprise AI, Foundry IQ addresses the groundin
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Foundry IQ connects AI models to enterprise data through sophisticated retrieval-augmented generation, finally enabling AI that genuinely understands your organization.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Microsoft Foundry", "RAG", "AI", "Enterprise AI", "Cloud Computing"]
 }

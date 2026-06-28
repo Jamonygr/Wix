@@ -4,7 +4,8 @@ Blog Post 5: Azure Copilot Agents
 
 BLOG_POST = {
     "title": "Azure Copilot Agents: Your Cloud Operations Just Got a Rad AI Pit Crew",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Remember those 80s action movies where the hero had a genius support team in a van, feeding them intel and coordinating the mission? Well, Microsoft just gave every Azure administrator that same experience with Azure Copilot Agents. And let me tell you, cloud operations are about to get a whole lot more bodacious.
 
 Azure Copilot isn't just another chatbot slapped onto your portal. It's an intelligent system that embeds specialized AI agents directly into your cloud management workflow. Migration agents, deployment agents, operations agents—all working in concert to make your life easier.
@@ -271,10 +272,10 @@ The 80s action hero had their support team in a van. You've got Azure Copilot in
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure Copilot embeds AI agents directly into cloud operations—migration, deployment, operations, and optimization. Discover how this radical new approach transforms infrastructure management.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Azure Copilot", "AI", "Cloud Operations", "DevOps", "Infrastructure"]
 }

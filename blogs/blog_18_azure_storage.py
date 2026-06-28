@@ -4,7 +4,8 @@ Blog Post 18: Azure Storage Innovations
 
 BLOG_POST = {
     "title": "Azure Storage Innovations: Unlocking the Future of Data in the Cloud Era",
-    
+    "coverImage": "https://static.wixstatic.com/media/32fce1_6c1cc8bc82db46b998b61dc5273d7d99~mv2.png",
+
     "content": """Data is the new oil, they say. But oil sitting in the ground is useless—it's the refining, the transportation, the application that creates value. Azure Storage has always been about making data useful, and the latest innovations take this mission to radical new levels.
 
 Microsoft just announced a collection of Azure Storage improvements that address the most pressing challenges enterprises face: scale, performance, cost, and intelligence. These aren't incremental tweaks—they're fundamental advances in how we store and access data in the cloud.
@@ -367,10 +368,10 @@ Your data deserves a home that understands its value. Azure Storage continues to
 
 **Chriz**
 *Beyond Cloud with Chriz*""",
-    
+
     "excerpt": "Azure Storage receives comprehensive updates including performance improvements, AI integration, cost optimization features, and security enhancements. The future of enterprise data storage is here.",
-    
+
     "publish": True,
-    
+
     "tags": ["Azure", "Storage", "Data Lake", "Blob Storage", "Cloud Computing", "Enterprise"]
 }

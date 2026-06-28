@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Zero-Trust Azure App Service Guide Cover</title>
+  <desc id="desc">A stylized cover image for a portfolio guide about securing Azure App Service with Front Door, Private Link, Key Vault, and managed identity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071A3D"/>
+      <stop offset="55%" stop-color="#0C4FD8"/>
+      <stop offset="100%" stop-color="#47C3F3"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7FBFF" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#DCEEFF" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8EF0FF"/>
+      <stop offset="100%" stop-color="#B9FFB7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#05204D" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.12">
+    <circle cx="1340" cy="140" r="220" fill="#B6F7FF"/>
+    <circle cx="1260" cy="760" r="280" fill="#001C54"/>
+    <circle cx="230" cy="740" r="180" fill="#8EF0FF"/>
+  </g>
+  <g opacity="0.12" stroke="#E8F5FF" stroke-width="1.5">
+    <path d="M0 160 H1600"/>
+    <path d="M0 320 H1600"/>
+    <path d="M0 480 H1600"/>
+    <path d="M0 640 H1600"/>
+    <path d="M0 800 H1600"/>
+    <path d="M180 0 V900"/>
+    <path d="M360 0 V900"/>
+    <path d="M540 0 V900"/>
+    <path d="M720 0 V900"/>
+    <path d="M900 0 V900"/>
+    <path d="M1080 0 V900"/>
+    <path d="M1260 0 V900"/>
+    <path d="M1440 0 V900"/>
+  </g>
+
+  <rect x="96" y="82" rx="18" ry="18" width="260" height="46" fill="#0A2A6D" stroke="#92DFFF" stroke-width="1.5"/>
+  <text x="126" y="113" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#EAF8FF">Azure Portfolio Guide</text>
+
+  <text x="96" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" fill="#FFFFFF">Build A Zero-Trust</text>
+  <text x="96" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" fill="#FFFFFF">Azure App Service Platform</text>
+  <text x="96" y="362" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="#D7EEFF">Front Door Premium, Private Link, Key Vault, managed identity, and production observability in one reference architecture.</text>
+
+  <rect x="96" y="430" rx="22" ry="22" width="208" height="62" fill="#FFFFFF" opacity="0.12" stroke="#BFE8FF" stroke-width="1.5"/>
+  <rect x="324" y="430" rx="22" ry="22" width="220" height="62" fill="#FFFFFF" opacity="0.12" stroke="#BFE8FF" stroke-width="1.5"/>
+  <rect x="564" y="430" rx="22" ry="22" width="250" height="62" fill="#FFFFFF" opacity="0.12" stroke="#BFE8FF" stroke-width="1.5"/>
+  <text x="126" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Secure Edge</text>
+  <text x="354" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Private Origin</text>
+  <text x="594" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Passwordless Access</text>
+
+  <g filter="url(#shadow)">
+    <rect x="955" y="140" rx="34" ry="34" width="520" height="560" fill="url(#card)" opacity="0.98"/>
+    <text x="999" y="204" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#0A2A6D">Reference Pattern Snapshot</text>
+
+    <rect x="1005" y="246" rx="22" ry="22" width="420" height="88" fill="#0D3C9A"/>
+    <text x="1041" y="299" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Azure Front Door Premium + WAF</text>
+
+    <rect x="1127" y="382" rx="22" ry="22" width="180" height="88" fill="#3DBBFF"/>
+    <text x="1172" y="435" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="800" fill="#073264">Private</text>
+    <text x="1160" y="466" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#073264">Link</text>
+
+    <rect x="1010" y="520" rx="22" ry="22" width="260" height="98" fill="#FFFFFF" stroke="#B6D8FF" stroke-width="2"/>
+    <text x="1052" y="573" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#0A2A6D">Azure App Service</text>
+    <text x="1064" y="607" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#4070A0">Private origin + managed identity</text>
+
+    <rect x="1300" y="520" rx="22" ry="22" width="138" height="98" fill="#E6F9EE" stroke="#A9E6B9" stroke-width="2"/>
+    <text x="1328" y="576" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800" fill="#0F6A40">Key</text>
+    <text x="1314" y="607" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#0F6A40">Vault</text>
+
+    <rect x="1106" y="655" rx="22" ry="22" width="226" height="62" fill="#EEF5FF" stroke="#C1D8FF" stroke-width="2"/>
+    <text x="1140" y="694" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#0A2A6D">Azure Monitor</text>
+
+    <path d="M1215 334 V375" stroke="#0D3C9A" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1215 470 V515" stroke="#0D3C9A" stroke-width="7" stroke-linecap="round"/>
+    <path d="M1272 568 H1290" stroke="#2E7AD8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1219 618 V647" stroke="#2E7AD8" stroke-width="5" stroke-linecap="round"/>
+
+    <circle cx="1215" cy="332" r="10" fill="#8EF0FF"/>
+    <circle cx="1215" cy="470" r="10" fill="#8EF0FF"/>
+    <circle cx="1274" cy="568" r="8" fill="#8EF0FF"/>
+    <circle cx="1219" cy="647" r="8" fill="#8EF0FF"/>
+  </g>
+
+  <rect x="96" y="770" rx="20" ry="20" width="500" height="16" fill="#FFFFFF" opacity="0.18"/>
+  <rect x="96" y="770" rx="20" ry="20" width="440" height="16" fill="url(#accent)"/>
+  <text x="96" y="835" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" fill="#DDF3FF">Portfolio theme: secure edge, private application path, and evidence-based operations</text>
+</svg>

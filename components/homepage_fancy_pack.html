@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beyond Cloud Homepage Fancy Pack</title>
+  <style>
+    :root {
+      --bcwc-bg: #04040b;
+      --bcwc-panel: rgba(9, 13, 28, 0.88);
+      --bcwc-panel-strong: rgba(13, 18, 39, 0.96);
+      --bcwc-cyan: #22f7ff;
+      --bcwc-pink: #ff3df2;
+      --bcwc-amber: #ffd166;
+      --bcwc-green: #26f59a;
+      --bcwc-blue: #5794ff;
+      --bcwc-text: #f7fbff;
+      --bcwc-muted: #a7b6c9;
+      --bcwc-line: rgba(34, 247, 255, 0.36);
+      --bcwc-pink-line: rgba(255, 61, 242, 0.34);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-height: 100%;
+      margin: 0;
+      overflow-x: hidden;
+      background: transparent;
+    }
+
+    body {
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      color: var(--bcwc-text);
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .bcwc-home {
+      width: 100%;
+      overflow: hidden;
+      background:
+        linear-gradient(rgba(34, 247, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 61, 242, 0.04) 1px, transparent 1px),
+        linear-gradient(180deg, #03040a 0%, #07111a 43%, #030306 100%);
+      background-size: 42px 42px, 42px 42px, 100% 100%;
+      border-top: 1px solid rgba(34, 247, 255, 0.3);
+      border-bottom: 1px solid rgba(255, 61, 242, 0.22);
+      position: relative;
+    }
+
+    .bcwc-home::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 18%, transparent 82%, rgba(34, 247, 255, 0.05));
+    }
+
+    .bcwc-home::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: repeating-linear-gradient(0deg, rgba(255,255,255,0.025), rgba(255,255,255,0.025) 1px, transparent 1px, transparent 5px);
+      opacity: 0.45;
+      mix-blend-mode: screen;
+    }
+
+    .bcwc-wrap {
+      width: min(1160px, calc(100% - 40px));
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .bcwc-section {
+      padding: 56px 0;
+    }
+
+    .bcwc-kicker,
+    .bcwc-chip,
+    .bcwc-button,
+    .bcwc-card-label,
+    .bcwc-terminal-top,
+    .bcwc-metric-label {
+      font-family: "Segoe UI", Arial, sans-serif;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .bcwc-kicker {
+      color: var(--bcwc-green);
+      font-size: 13px;
+      font-weight: 800;
+      margin: 0 0 12px;
+    }
+
+    .bcwc-title {
+      margin: 0;
+      color: var(--bcwc-text);
+      font-size: 46px;
+      line-height: 1.04;
+      font-weight: 900;
+      text-shadow: 0 0 22px rgba(34, 247, 255, 0.25);
+    }
+
+    .bcwc-copy {
+      margin: 18px 0 0;
+      color: var(--bcwc-muted);
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 760px;
+    }
+
+    .bcwc-mission {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .bcwc-panel {
+      background: linear-gradient(135deg, rgba(8, 12, 28, 0.94), rgba(8, 8, 16, 0.9));
+      border: 1px solid var(--bcwc-line);
+      box-shadow: 0 0 28px rgba(34, 247, 255, 0.1), inset 0 0 38px rgba(34, 247, 255, 0.04);
+      padding: 28px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .bcwc-panel::before,
+    .bcwc-card::before,
+    .bcwc-terminal::before,
+    .bcwc-newsletter::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 58px;
+      height: 58px;
+      border-top: 2px solid var(--bcwc-cyan);
+      border-left: 2px solid var(--bcwc-cyan);
+      pointer-events: none;
+    }
+
+    .bcwc-panel::after,
+    .bcwc-card::after,
+    .bcwc-terminal::after,
+    .bcwc-newsletter::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 58px;
+      height: 58px;
+      border-right: 2px solid var(--bcwc-pink);
+      border-bottom: 2px solid var(--bcwc-pink);
+      pointer-events: none;
+    }
+
+    .bcwc-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .bcwc-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 46px;
+      padding: 12px 18px;
+      border: 1px solid var(--bcwc-cyan);
+      background: rgba(34, 247, 255, 0.08);
+      color: var(--bcwc-text);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 1.1;
+      box-shadow: 0 0 18px rgba(34, 247, 255, 0.18);
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease, border-color 180ms ease;
+    }
+
+    .bcwc-button:hover,
+    .bcwc-button:focus {
+      transform: translateY(-2px);
+      background: rgba(34, 247, 255, 0.16);
+      box-shadow: 0 0 24px rgba(34, 247, 255, 0.42);
+      outline: none;
+    }
+
+    .bcwc-button.bcwc-button-hot {
+      border-color: var(--bcwc-pink);
+      background: rgba(255, 61, 242, 0.12);
+      box-shadow: 0 0 18px rgba(255, 61, 242, 0.2);
+    }
+
+    .bcwc-button.bcwc-button-hot:hover,
+    .bcwc-button.bcwc-button-hot:focus {
+      background: rgba(255, 61, 242, 0.2);
+      box-shadow: 0 0 24px rgba(255, 61, 242, 0.42);
+    }
+
+    .bcwc-metrics {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      height: 100%;
+    }
+
+    .bcwc-metric {
+      background: rgba(3, 5, 12, 0.72);
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      padding: 18px;
+      min-height: 98px;
+    }
+
+    .bcwc-metric-label {
+      color: var(--bcwc-muted);
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 7px;
+    }
+
+    .bcwc-metric strong {
+      display: block;
+      color: var(--bcwc-cyan);
+      font-size: 25px;
+      line-height: 1.1;
+      text-shadow: 0 0 18px rgba(34, 247, 255, 0.42);
+    }
+
+    .bcwc-metric:nth-child(2) strong {
+      color: var(--bcwc-pink);
+      text-shadow: 0 0 18px rgba(255, 61, 242, 0.42);
+    }
+
+    .bcwc-metric:nth-child(3) strong {
+      color: var(--bcwc-amber);
+      text-shadow: 0 0 18px rgba(255, 209, 102, 0.32);
+    }
+
+    .bcwc-terminal-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .bcwc-terminal {
+      min-height: 360px;
+      background: #020306;
+      border: 1px solid rgba(34, 247, 255, 0.48);
+      box-shadow: 0 0 30px rgba(34, 247, 255, 0.12), inset 0 0 34px rgba(255, 61, 242, 0.05);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .bcwc-terminal-top {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 42px;
+      padding: 0 16px;
+      background: linear-gradient(90deg, rgba(34, 247, 255, 0.12), rgba(255, 61, 242, 0.08));
+      border-bottom: 1px solid rgba(34, 247, 255, 0.22);
+      color: var(--bcwc-muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .bcwc-dot {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      background: var(--bcwc-green);
+      box-shadow: 0 0 10px rgba(38, 245, 154, 0.85);
+    }
+
+    .bcwc-terminal-body {
+      padding: 24px;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 16px;
+      line-height: 1.72;
+      color: #d9fff8;
+      white-space: pre-wrap;
+      min-height: 318px;
+    }
+
+    .bcwc-terminal-body span {
+      color: var(--bcwc-green);
+    }
+
+    .bcwc-terminal-body b {
+      color: var(--bcwc-amber);
+      font-weight: 700;
+    }
+
+    .bcwc-terminal-cursor {
+      display: inline-block;
+      width: 9px;
+      height: 18px;
+      margin-left: 4px;
+      vertical-align: -3px;
+      background: var(--bcwc-cyan);
+      animation: bcwcBlink 900ms steps(1) infinite;
+    }
+
+    @keyframes bcwcBlink {
+      50% { opacity: 0; }
+    }
+
+    .bcwc-queue {
+      display: grid;
+      gap: 12px;
+    }
+
+    .bcwc-queue-item {
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      background: rgba(9, 13, 28, 0.78);
+      padding: 17px;
+    }
+
+    .bcwc-chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 8px;
+      margin-bottom: 10px;
+      color: #071018;
+      background: var(--bcwc-green);
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .bcwc-chip.pink {
+      background: var(--bcwc-pink);
+      color: #fff;
+    }
+
+    .bcwc-chip.amber {
+      background: var(--bcwc-amber);
+      color: #080810;
+    }
+
+    .bcwc-queue-item h3,
+    .bcwc-card h3,
+    .bcwc-feature h3,
+    .bcwc-drop h3 {
+      margin: 0;
+      color: var(--bcwc-text);
+      font-size: 20px;
+      line-height: 1.2;
+    }
+
+    .bcwc-queue-item p,
+    .bcwc-card p,
+    .bcwc-feature p,
+    .bcwc-drop p {
+      margin: 10px 0 0;
+      color: var(--bcwc-muted);
+      font-size: 15px;
+      line-height: 1.55;
+    }
+
+    .bcwc-section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: end;
+      margin-bottom: 22px;
+    }
+
+    .bcwc-section-head h2 {
+      margin: 0;
+      color: var(--bcwc-text);
+      font-size: 32px;
+      line-height: 1.1;
+    }
+
+    .bcwc-section-head p {
+      margin: 8px 0 0;
+      color: var(--bcwc-muted);
+      font-size: 16px;
+      line-height: 1.5;
+      max-width: 580px;
+    }
+
+    .bcwc-card-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .bcwc-card {
+      min-height: 250px;
+      color: inherit;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(145deg, rgba(12, 17, 37, 0.96), rgba(5, 7, 15, 0.96));
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 22px;
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    }
+
+    .bcwc-card:hover,
+    .bcwc-card:focus {
+      transform: translateY(-4px);
+      border-color: var(--bcwc-cyan);
+      box-shadow: 0 0 24px rgba(34, 247, 255, 0.18);
+      outline: none;
+    }
+
+    .bcwc-card-label {
+      color: var(--bcwc-green);
+      font-size: 12px;
+      font-weight: 900;
+      margin-bottom: 52px;
+    }
+
+    .bcwc-card:nth-child(2) .bcwc-card-label {
+      color: var(--bcwc-cyan);
+    }
+
+    .bcwc-card:nth-child(3) .bcwc-card-label {
+      color: var(--bcwc-pink);
+    }
+
+    .bcwc-card:nth-child(4) .bcwc-card-label {
+      color: var(--bcwc-amber);
+    }
+
+    .bcwc-card-mark {
+      position: absolute;
+      right: 18px;
+      top: 16px;
+      color: rgba(255, 255, 255, 0.1);
+      font-size: 64px;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .bcwc-drops {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(300px, 0.8fr);
+      gap: 18px;
+    }
+
+    .bcwc-feature,
+    .bcwc-drop {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+      background: var(--bcwc-panel);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    }
+
+    .bcwc-feature:hover,
+    .bcwc-feature:focus,
+    .bcwc-drop:hover,
+    .bcwc-drop:focus {
+      transform: translateY(-3px);
+      border-color: var(--bcwc-pink);
+      box-shadow: 0 0 24px rgba(255, 61, 242, 0.16);
+      outline: none;
+    }
+
+    .bcwc-feature {
+      min-height: 390px;
+      padding: 28px;
+      background:
+        linear-gradient(180deg, rgba(34, 247, 255, 0.08), transparent 36%),
+        linear-gradient(145deg, rgba(16, 21, 48, 0.95), rgba(5, 7, 15, 0.98));
+    }
+
+    .bcwc-feature-art {
+      height: 176px;
+      margin-bottom: 28px;
+      border: 1px solid rgba(34, 247, 255, 0.26);
+      background:
+        linear-gradient(rgba(255, 61, 242, 0.16) 2px, transparent 2px),
+        linear-gradient(90deg, rgba(34, 247, 255, 0.14) 2px, transparent 2px),
+        linear-gradient(160deg, rgba(255, 61, 242, 0.34), rgba(34, 247, 255, 0.16) 46%, rgba(255, 209, 102, 0.24));
+      background-size: 28px 28px, 28px 28px, 100% 100%;
+      display: flex;
+      align-items: end;
+      padding: 20px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .bcwc-feature-art::before {
+      content: "AZURE";
+      color: rgba(255, 255, 255, 0.88);
+      font-size: 42px;
+      font-weight: 900;
+      text-shadow: 0 0 24px rgba(34, 247, 255, 0.55);
+    }
+
+    .bcwc-feature h3 {
+      font-size: 28px;
+      max-width: 650px;
+    }
+
+    .bcwc-drop-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .bcwc-drop {
+      min-height: 120px;
+      padding: 18px;
+    }
+
+    .bcwc-drop h3 {
+      font-size: 18px;
+    }
+
+    .bcwc-newsletter {
+      position: relative;
+      overflow: hidden;
+      background:
+        linear-gradient(90deg, rgba(38, 245, 154, 0.11), transparent 32%),
+        linear-gradient(135deg, rgba(13, 18, 39, 0.98), rgba(5, 7, 15, 0.98));
+      border: 1px solid rgba(38, 245, 154, 0.32);
+      padding: 30px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+      gap: 28px;
+      align-items: center;
+    }
+
+    .bcwc-newsletter h2 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.15;
+    }
+
+    .bcwc-newsletter p {
+      margin: 12px 0 0;
+      color: var(--bcwc-muted);
+      font-size: 16px;
+      line-height: 1.55;
+    }
+
+    .bcwc-form {
+      display: grid;
+      gap: 10px;
+    }
+
+    .bcwc-input {
+      width: 100%;
+      min-height: 46px;
+      border: 1px solid rgba(34, 247, 255, 0.45);
+      background: rgba(1, 3, 8, 0.88);
+      color: var(--bcwc-text);
+      padding: 12px 14px;
+      font-size: 15px;
+      outline: none;
+    }
+
+    .bcwc-input:focus {
+      border-color: var(--bcwc-green);
+      box-shadow: 0 0 16px rgba(38, 245, 154, 0.2);
+    }
+
+    .bcwc-status {
+      min-height: 20px;
+      color: var(--bcwc-green);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 980px) {
+      .bcwc-mission,
+      .bcwc-terminal-grid,
+      .bcwc-drops,
+      .bcwc-newsletter {
+        grid-template-columns: 1fr;
+      }
+
+      .bcwc-card-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .bcwc-title {
+        font-size: 38px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .bcwc-wrap {
+        width: min(100% - 24px, 1160px);
+      }
+
+      .bcwc-section {
+        padding: 36px 0;
+      }
+
+      .bcwc-panel,
+      .bcwc-feature,
+      .bcwc-newsletter,
+      .bcwc-card {
+        padding: 20px;
+      }
+
+      .bcwc-title {
+        font-size: 30px;
+        line-height: 1.1;
+      }
+
+      .bcwc-copy {
+        font-size: 16px;
+      }
+
+      .bcwc-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .bcwc-button {
+        width: 100%;
+      }
+
+      .bcwc-terminal-body {
+        padding: 18px;
+        font-size: 14px;
+      }
+
+      .bcwc-card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .bcwc-section-head {
+        display: block;
+      }
+
+      .bcwc-section-head h2,
+      .bcwc-newsletter h2 {
+        font-size: 26px;
+      }
+
+      .bcwc-feature-art {
+        height: 132px;
+      }
+
+      .bcwc-feature-art::before {
+        font-size: 31px;
+      }
+
+      .bcwc-feature h3 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="bcwc-home" aria-label="Beyond Cloud with Chriz homepage sections">
+    <section class="bcwc-section">
+      <div class="bcwc-wrap bcwc-mission">
+        <div class="bcwc-panel">
+          <p class="bcwc-kicker">Cloud missions online</p>
+          <h1 class="bcwc-title">Azure labs, news, Terraform paths, and certification routes in one neon control room.</h1>
+          <p class="bcwc-copy">Start with hands-on labs, catch the newest Azure moves, or follow a structured learning path without digging through the whole site first.</p>
+          <div class="bcwc-actions" aria-label="Homepage shortcuts">
+            <a class="bcwc-button bcwc-button-hot" href="https://www.beyondcloudwithchriz.com/githublabz" target="_top">Start GitHub Labz</a>
+            <a class="bcwc-button" href="https://www.beyondcloudwithchriz.com/azurecertificationpaths" target="_top">Azure Cert Paths</a>
+            <a class="bcwc-button" href="https://www.beyondcloudwithchriz.com/terraformazure" target="_top">Terraform Azure</a>
+          </div>
+        </div>
+        <aside class="bcwc-panel bcwc-metrics" aria-label="Site highlights">
+          <div class="bcwc-metric">
+            <div class="bcwc-metric-label">Current focus</div>
+            <strong>Azure AI</strong>
+          </div>
+          <div class="bcwc-metric">
+            <div class="bcwc-metric-label">Hands-on lane</div>
+            <strong>AKS + Terraform</strong>
+          </div>
+          <div class="bcwc-metric">
+            <div class="bcwc-metric-label">Learning mode</div>
+            <strong>Build, break, repeat</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="bcwc-section">
+      <div class="bcwc-wrap bcwc-terminal-grid">
+        <div class="bcwc-terminal" aria-label="Cloud console">
+          <div class="bcwc-terminal-top"><span class="bcwc-dot"></span> beyondcloud://mission-console</div>
+          <div class="bcwc-terminal-body" id="bcwcTerminal" aria-live="polite"></div>
+        </div>
+        <div class="bcwc-queue">
+          <article class="bcwc-queue-item">
+            <span class="bcwc-chip">Learn</span>
+            <h3>Azure certification routes</h3>
+            <p>Pick the next exam path and move through fundamentals, administrator, and architect topics with less noise.</p>
+          </article>
+          <article class="bcwc-queue-item">
+            <span class="bcwc-chip pink">Build</span>
+            <h3>GitHub Labz</h3>
+            <p>Use practical labs to turn cloud notes into something you can actually show, test, and improve.</p>
+          </article>
+          <article class="bcwc-queue-item">
+            <span class="bcwc-chip amber">Deploy</span>
+            <h3>Terraform on Azure</h3>
+            <p>Move from manual portal work toward repeatable infrastructure with a clearer Azure IaC track.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bcwc-section">
+      <div class="bcwc-wrap">
+        <div class="bcwc-section-head">
+          <div>
+            <p class="bcwc-kicker">Start here</p>
+            <h2>Choose the fastest route into the site.</h2>
+            <p>Each path points to a real section already on Beyond Cloud with Chriz.</p>
+          </div>
+        </div>
+        <div class="bcwc-card-grid">
+          <a class="bcwc-card" href="https://www.beyondcloudwithchriz.com/githublabz" target="_top">
+            <span class="bcwc-card-mark">01</span>
+            <div class="bcwc-card-label">Lab mode</div>
+            <h3>GitHub Labz</h3>
+            <p>Project-based cloud work for builders who want proof, not just notes.</p>
+          </a>
+          <a class="bcwc-card" href="https://www.beyondcloudwithchriz.com/azurecertificationpaths" target="_top">
+            <span class="bcwc-card-mark">02</span>
+            <div class="bcwc-card-label">Study mode</div>
+            <h3>Azure Certification Paths</h3>
+            <p>Clear entry points for AZ-900, AZ-104, AZ-305, and broader Azure learning.</p>
+          </a>
+          <a class="bcwc-card" href="https://www.beyondcloudwithchriz.com/terraformazure" target="_top">
+            <span class="bcwc-card-mark">03</span>
+            <div class="bcwc-card-label">IaC mode</div>
+            <h3>Terraform Azure</h3>
+            <p>Infrastructure as Code concepts and Azure Terraform direction in one lane.</p>
+          </a>
+          <a class="bcwc-card" href="https://www.beyondcloudwithchriz.com/" target="_top">
+            <span class="bcwc-card-mark">04</span>
+            <div class="bcwc-card-label">News mode</div>
+            <h3>Azure News</h3>
+            <p>Short, opinionated updates on Azure, Microsoft Foundry, AKS, security, and data.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bcwc-section">
+      <div class="bcwc-wrap">
+        <div class="bcwc-section-head">
+          <div>
+            <p class="bcwc-kicker">Latest Azure drops</p>
+            <h2>Fresh posts with a stronger first click.</h2>
+            <p>Use this block above the native blog feed to make the newest articles feel curated.</p>
+          </div>
+          <a class="bcwc-button" href="https://www.beyondcloudwithchriz.com/" target="_top">View Blog</a>
+        </div>
+        <div class="bcwc-drops">
+          <a class="bcwc-feature" href="https://www.beyondcloudwithchriz.com/post/azure-local-scales-sovereign-private-cloud-to-thousands-of-servers" target="_top">
+            <div class="bcwc-feature-art" aria-hidden="true"></div>
+            <span class="bcwc-chip amber">Featured</span>
+            <h3>Azure Local Scales Sovereign Private Cloud to Thousands of Servers</h3>
+            <p>Microsoft is making Azure Local a much bigger story for sovereign, regulated, disconnected, and AI-heavy environments.</p>
+          </a>
+          <div class="bcwc-drop-list">
+            <a class="bcwc-drop" href="https://www.beyondcloudwithchriz.com/post/azure-integrated-hsm-goes-open-source-and-moves-key-protection-into-the-server" target="_top">
+              <span class="bcwc-chip">Security</span>
+              <h3>Azure Integrated HSM Goes Open Source</h3>
+              <p>Hardware-backed key protection gets closer to the workload.</p>
+            </a>
+            <a class="bcwc-drop" href="https://www.beyondcloudwithchriz.com/post/azure-files-entra-only-identities-hit-ga-and-cut-the-domain-controller-dependency" target="_top">
+              <span class="bcwc-chip pink">Identity</span>
+              <h3>Azure Files Entra-Only Identities Hit GA</h3>
+              <p>Cloud-native SMB identity without dragging domain controllers everywhere.</p>
+            </a>
+            <a class="bcwc-drop" href="https://www.beyondcloudwithchriz.com/post/foundry-iq-gets-serverless-retrieval-mcp-access-and-a-real-knowledge-layer-for-agents" target="_top">
+              <span class="bcwc-chip amber">AI</span>
+              <h3>Foundry IQ Gets Serverless Retrieval</h3>
+              <p>A stronger knowledge layer for production agents.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bcwc-section">
+      <div class="bcwc-wrap">
+        <div class="bcwc-newsletter">
+          <div>
+            <p class="bcwc-kicker">Stay on frequency</p>
+            <h2>Get the next Azure drop without hunting for it.</h2>
+            <p>Send a quick subscribe request and keep the cloud signal close.</p>
+          </div>
+          <form class="bcwc-form" id="bcwcSubscribeForm">
+            <label class="bcwc-kicker" for="bcwcEmail">Email address</label>
+            <input class="bcwc-input" id="bcwcEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <button class="bcwc-button bcwc-button-hot" type="submit">Request Newsletter Access</button>
+            <div class="bcwc-status" id="bcwcStatus" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      const terminal = document.getElementById("bcwcTerminal");
+      const lines = [
+        "<span>chriz@azure</span>:~$ az aks list --challenge",
+        "cluster: aks-terraform-challenge | status: <b>online</b>",
+        "<span>chriz@azure</span>:~$ terraform plan -out cloud.tfplan",
+        "plan: 7 to add, 0 to change, 0 to destroy",
+        "<span>chriz@azure</span>:~$ foundry models list --latest",
+        "signal: agents, data, security, kubernetes",
+        "<span>chriz@azure</span>:~$ open beyondcloud/latest",
+        "dispatch: latest Azure drop ready"
+      ];
+      let index = 0;
+
+      function renderTerminal() {
+        const visible = lines.slice(0, index + 1).join("\\n");
+        terminal.innerHTML = visible + '<span class="bcwc-terminal-cursor"></span>';
+        index = (index + 1) % lines.length;
+      }
+
+      renderTerminal();
+      window.setInterval(renderTerminal, 1200);
+
+      const form = document.getElementById("bcwcSubscribeForm");
+      const email = document.getElementById("bcwcEmail");
+      const status = document.getElementById("bcwcStatus");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        const value = email.value.trim();
+        if (!value) {
+          status.textContent = "Enter an email address first.";
+          return;
+        }
+
+        status.textContent = "Opening your email client.";
+        const subject = encodeURIComponent("Subscribe me to Beyond Cloud with Chriz");
+        const body = encodeURIComponent("Please add this email to the Beyond Cloud with Chriz newsletter: " + value);
+        window.location.href = "mailto:info@beyondcloudwithchriz.com?subject=" + subject + "&body=" + body;
+      });
+    }());
+  </script>
+</body>
+</html>
